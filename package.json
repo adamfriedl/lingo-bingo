@@ -1,0 +1,24 @@
+{
+  "name": "lingo-bingo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "enzyme-adapter-react-16": "^1.0.2",
+    "flow": "0.2.3",
+    "flow-bin": "^0.57.3",
+    "global": "^4.3.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.14",
+    "rebass": "^1.0.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "test:coverage": "react-scripts test --coverage",
+    "eject": "react-scripts eject",
+    "flow": "flow"
+  }
+}
