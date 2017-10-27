@@ -18,7 +18,7 @@ const CustomFlex = styled(Flex)`
 
 const Square = (props: { text: string }) => (
   <div>
-    <CustomFlex align="center" justify="center" bg="blue" mx={1}>
+    <CustomFlex align="center" justify="center" bg="blue" mr={1} mb={1}>
       <Text center color="yellow">
         {props.text}
       </Text>

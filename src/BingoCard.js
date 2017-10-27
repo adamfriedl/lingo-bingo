@@ -9,10 +9,20 @@ const BingoCard = () => {
     <div>
       <Container my={2}>
         <Square text={'Beep'} />
-        <Square text={'Boop'} />
-        <Square text={'Boop'} />
-        <Square text={'Boop'} />
-        <Square text={'Boop'} />
+        <Square text={'Beep'} />
+        <Square text={'Beep'} />
+        <Square text={'Beep'} />
+        <Square text={'Beep'} />
+        <Square text={'Beep'} />
+        <Square text={'Beep'} />
+        <Square text={'Beep'} />
+        <Square text={'Beep'} />
+        <Square text={'Beep'} />
+        <Square text={'Beep'} />
+        <Square text={'Beep'} />
+        <Square text={'Beep'} />
+        <Square text={'Beep'} />
+        <Square text={'Beep'} />
       </Container>
     </div>
   );
