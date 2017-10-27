@@ -1,31 +1,25 @@
 // @flow
 
-import React from 'react';
-import { Container, Row, Card, BackgroundImage, Text, Flex } from 'rebass';
+import React, { Component } from 'react';
+import { Container } from 'rebass';
 import Square from './Square';
 
-const BingoCard = () => {
-  return (
-    <div>
-      <Container my={2}>
-        <Square text={'Beep'} />
-        <Square text={'Beep'} />
-        <Square text={'Beep'} />
-        <Square text={'Beep'} />
-        <Square text={'Beep'} />
-        <Square text={'Beep'} />
-        <Square text={'Beep'} />
-        <Square text={'Beep'} />
-        <Square text={'Beep'} />
-        <Square text={'Beep'} />
-        <Square text={'Beep'} />
-        <Square text={'Beep'} />
-        <Square text={'Beep'} />
-        <Square text={'Beep'} />
-        <Square text={'Beep'} />
-      </Container>
-    </div>
-  );
-};
+class BingoCard extends Component<Props, State> {
+  state = {
+    squares: ['hello', 'goodbye', 'shalom']
+  };
+
+  renderSquare = (phrase: string) => <Square text={phrase} />;
+
+  render() {
+    return (
+      <div>
+        <Container my={2}>
+          {this.state.squares.map(string => this.renderSquare(string))}
+        </Container>
+      </div>
+    );
+  }
+}
 
 export default BingoCard;
