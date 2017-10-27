@@ -3,6 +3,10 @@
 import React, { Component } from 'react';
 import { Container } from 'rebass';
 import Square from './Square';
+import Preload from './Preload';
+
+// IMPLEMENT DURSTENFELD SHUFFLE
+const data = Preload.sort().slice(0, 25);
 
 class BingoCard extends Component<Props, State> {
   state = {
@@ -15,7 +19,7 @@ class BingoCard extends Component<Props, State> {
     return (
       <div>
         <Container my={2}>
-          {this.state.squares.map(string => this.renderSquare(string))}
+          {data.map(string => this.renderSquare(string))}
         </Container>
       </div>
     );
