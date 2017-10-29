@@ -6,9 +6,10 @@ import Square from './Square';
 import Preload from './Preload';
 
 class BingoCard extends Component<Props> {
-  // state = {
-  //   squares: ['hello', 'goodbye', 'shalom']
-  // };
+  state = {
+    squares: Array(25).fill(null)
+  };
+
   renderSquare = (phrase: string, i: number) => (
     <Square text={phrase} onClick={() => alert(phrase)} key={i} />
   );
