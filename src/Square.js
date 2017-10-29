@@ -24,7 +24,7 @@ const Square = (props: { text: string, onClick: () => void }) => (
       bg="blue"
       mr={1}
       mb={1}
-      onClick={() => props.onClick()}
+      onClick={props.onClick}
     >
       <Text center color="yellow">
         {props.text}
