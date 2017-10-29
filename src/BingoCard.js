@@ -5,6 +5,9 @@ import { Container } from 'rebass';
 import Square from './Square';
 import Preload from './Preload';
 
+// NEED TO SET 'CLICKED' STATUS IN STATE AND PASS TO SQUARES
+// THEN HANDLECLICK SHOULD TOGGLE STATUS
+
 class BingoCard extends Component<Props> {
   state = {
     squares: Array(25).fill(null)
