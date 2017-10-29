@@ -16,9 +16,16 @@ const CustomFlex = styled(Flex)`
   }
 `;
 
-const Square = (props: { text: string }) => (
+const Square = (props: { text: string, onClick: () => void }) => (
   <div>
-    <CustomFlex align="center" justify="center" bg="blue" mr={1} mb={1}>
+    <CustomFlex
+      align="center"
+      justify="center"
+      bg="blue"
+      mr={1}
+      mb={1}
+      onClick={() => props.onClick()}
+    >
       <Text center color="yellow">
         {props.text}
       </Text>

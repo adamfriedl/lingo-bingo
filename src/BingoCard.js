@@ -9,7 +9,9 @@ class BingoCard extends Component<Props> {
   // state = {
   //   squares: ['hello', 'goodbye', 'shalom']
   // };
-  renderSquare = (phrase: string) => <Square text={phrase} />;
+  renderSquare = (phrase: string, i: number) => (
+    <Square text={phrase} onClick={() => alert(phrase)} key={i} />
+  );
 
   // Durstenfeld shuffle
   shuffleArray = array => {
@@ -28,7 +30,7 @@ class BingoCard extends Component<Props> {
     return (
       <div>
         <Container my={2}>
-          {data.map(string => this.renderSquare(string))}
+          {data.map((string, i) => this.renderSquare(string, i))}
         </Container>
       </div>
     );
