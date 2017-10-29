@@ -10,12 +10,16 @@ class BingoCard extends Component<Props> {
     squares: Array(25).fill(null)
   };
 
+  handleClick = (i: number) => {
+    alert('click');
+  };
+
   renderSquare = (phrase: string, i: number) => (
-    <Square text={phrase} onClick={() => alert(phrase)} key={i} />
+    <Square text={phrase} onClick={() => this.handleClick(i)} key={i} />
   );
 
   // Durstenfeld shuffle
-  shuffleArray = array => {
+  shuffleArray = (array: Array<string>) => {
     for (let i = array.length - 1; i > 0; i--) {
       let j = Math.floor(Math.random() * (i + 1));
       let temp = array[i];
