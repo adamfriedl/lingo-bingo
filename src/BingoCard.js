@@ -6,23 +6,24 @@ import Square from './Square';
 import Preload from './Preload';
 
 // NEED TO SET 'CLICKED' STATUS IN STATE AND PASS TO SQUARES
-// THEN HANDLECLICK SHOULD TOGGLE STATUS
-
-class BingoCard extends Component<Props> {
+// THE CURRENT METHOD BELOW DOES NOT WORK
+class BingoCard extends Component<Props, State> {
   state = {
-    squares: Array(25).fill(null)
+    squares: Array(25).fill({ clicked: false })
   };
 
   handleClick = (i: number) => {
-    alert('click');
+    const squares = this.state.squares.slice();
+    squares[i].clicked = !this.state.squares[i].clicked;
+    this.setState({ squares: squares });
   };
 
   renderSquare = (phrase: string, i: number) => (
     <Square
       text={phrase}
       onClick={() => this.handleClick(i)}
+      clicked={this.state.squares[i].clicked}
       key={i}
-      clicked={false}
     />
   );
 
@@ -42,6 +43,7 @@ class BingoCard extends Component<Props> {
 
     return (
       <div>
+        {console.log(this.state)}
         <Container my={2}>
           {data.map((string, i) => this.renderSquare(string, i))}
         </Container>
