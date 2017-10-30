@@ -9,12 +9,13 @@ import Preload from './Preload';
 // THE CURRENT METHOD BELOW DOES NOT WORK
 class BingoCard extends Component<Props, State> {
   state = {
+    data: [],
     squares: Array(25).fill({ clicked: false })
   };
 
   handleClick = (i: number) => {
     const squares = this.state.squares.slice();
-    squares[i].clicked = !this.state.squares[i].clicked;
+    squares[i] = { clicked: !this.state.squares[i].clicked };
     this.setState({ squares: squares });
   };
 
@@ -38,14 +39,18 @@ class BingoCard extends Component<Props, State> {
     return array;
   };
 
-  render() {
-    const data = this.shuffleArray(Preload).slice(0, 25);
+  componentDidMount() {
+    this.setState({
+      data: this.shuffleArray(Preload).slice(0, 25)
+    });
+  }
 
+  render() {
     return (
       <div>
         {console.log(this.state)}
         <Container my={2}>
-          {data.map((string, i) => this.renderSquare(string, i))}
+          {this.state.data.map((string, i) => this.renderSquare(string, i))}
         </Container>
       </div>
     );
