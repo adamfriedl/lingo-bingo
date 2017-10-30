@@ -18,7 +18,12 @@ class BingoCard extends Component<Props> {
   };
 
   renderSquare = (phrase: string, i: number) => (
-    <Square text={phrase} onClick={() => this.handleClick(i)} key={i} />
+    <Square
+      text={phrase}
+      onClick={() => this.handleClick(i)}
+      key={i}
+      clicked={false}
+    />
   );
 
   // Durstenfeld shuffle
