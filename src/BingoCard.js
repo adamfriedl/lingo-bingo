@@ -1,12 +1,10 @@
 // @flow
 
 import React, { Component } from 'react';
-import { Container } from 'rebass';
+import { Container, Text } from 'rebass';
 import Square from './Square';
 import Preload from './Preload';
 
-// NEED TO SET 'CLICKED' STATUS IN STATE AND PASS TO SQUARES
-// THE CURRENT METHOD BELOW DOES NOT WORK
 class BingoCard extends Component<Props, State> {
   state = {
     data: [],
@@ -15,6 +13,9 @@ class BingoCard extends Component<Props, State> {
 
   handleClick = (i: number) => {
     const squares = this.state.squares.slice();
+    if (this.checkForWin(squares)) {
+      return;
+    }
     squares[i] = { clicked: !this.state.squares[i].clicked };
     this.setState({ squares: squares });
   };
@@ -39,6 +40,38 @@ class BingoCard extends Component<Props, State> {
     return array;
   };
 
+  checkForWin = (squares: Array) => {
+    const lines = [
+      [0, 1, 2, 3, 4],
+      [5, 6, 7, 8, 9],
+      [10, 11, 12, 13, 14],
+      [15, 16, 17, 18, 19],
+      [20, 21, 22, 23, 24],
+      [0, 5, 10, 15, 20],
+      [1, 6, 11, 16, 21],
+      [2, 7, 12, 17, 22],
+      [3, 8, 13, 18, 23],
+      [4, 9, 14, 19, 24],
+      [0, 6, 12, 18, 24],
+      [4, 8, 12, 16, 20]
+    ];
+
+    for (let i = 0; i < lines.length; i++) {
+      const [a, b, c, d, e] = lines[i];
+      console.log('One time through' + i);
+      if (
+        squares[a].clicked === true &&
+        squares[b].clicked === true &&
+        squares[c].clicked === true &&
+        squares[d].clicked === true &&
+        squares[e].clicked === true
+      ) {
+        return 'There is a winner!!!';
+      }
+    }
+    return null;
+  };
+
   componentDidMount() {
     this.setState({
       data: this.shuffleArray(Preload).slice(0, 25)
@@ -46,10 +79,16 @@ class BingoCard extends Component<Props, State> {
   }
 
   render() {
+    const win = this.checkForWin(this.state.squares);
+    let status;
+    if (win) {
+      status = win;
+    }
+
     return (
       <div>
-        {console.log(this.state)}
-        <Container my={2}>
+        <Container my={4}>
+          <Text f={5} children={status} />
           {this.state.data.map((string, i) => this.renderSquare(string, i))}
         </Container>
       </div>
