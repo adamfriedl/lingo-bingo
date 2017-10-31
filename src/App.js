@@ -1,7 +1,7 @@
 // @flow
 
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 import Landing from './Landing';
 import BingoCard from './BingoCard';
 
