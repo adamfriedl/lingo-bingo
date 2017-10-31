@@ -58,7 +58,6 @@ class BingoCard extends Component<Props, State> {
 
     for (let i = 0; i < lines.length; i++) {
       const [a, b, c, d, e] = lines[i];
-      console.log('One time through' + i);
       if (
         squares[a].clicked === true &&
         squares[b].clicked === true &&
