@@ -25,12 +25,12 @@ const Square = (props: {
     <CustomFlex
       align="center"
       justify="center"
-      bg={props.clicked ? 'green' : 'blue'}
+      bg={props.clicked ? 'blue' : 'white'}
       mr={1}
       mb={1}
       onClick={props.onClick}
     >
-      <Text center color="yellow">
+      <Text center color="red">
         {props.text}
       </Text>
     </CustomFlex>

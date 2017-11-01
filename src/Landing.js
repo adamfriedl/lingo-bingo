@@ -1,5 +1,5 @@
 import React from 'react';
-import { Banner, Heading, Text } from 'rebass';
+import { Banner, Heading, Text, ButtonOutline } from 'rebass';
 
 const Landing = () => (
   <Banner
@@ -7,7 +7,11 @@ const Landing = () => (
     color="yellow"
   >
     <Heading f={[4, 5, 6, 7]}>Lingo Bingo</Heading>
-    <Text f={[1, 2, 3, 4]}>Are you ready to play?!</Text>
+    <Text f={[1, 2, 3, 4]}>
+      Are Bingo and sitting on conference calls your core competencies? <br />
+      Sounds like an opportunity for synergy.
+    </Text>
+    <ButtonOutline children="Let's Play!" color="yellow" />
   </Banner>
 );
 
