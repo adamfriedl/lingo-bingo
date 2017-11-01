@@ -6,7 +6,7 @@ import styled from 'styled-components';
 
 const CustomFlex = styled(Flex)`
   float: left;
-  width: 17.5%;
+  width: 16%;
   border: 5px solid red;
 
   :after {
