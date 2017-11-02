@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text } from 'rebass';
+import { Text, Link } from 'rebass';
 
 const Footer = () => {
   const fire = (
@@ -12,8 +12,10 @@ const Footer = () => {
   );
 
   return (
-    <div style={{ marginTop: '2em' }}>
-      <Text center>Made with {fire} by Adam Friedl</Text>
+    <div style={{ marginTop: '1em' }}>
+      <Text center>
+        Made with {fire} by <Link href="adamfriedl.com">Adam Friedl</Link>
+      </Text>
     </div>
   );
 };
