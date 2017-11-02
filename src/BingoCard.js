@@ -1,7 +1,7 @@
 // @flow
 
 import React, { Component } from 'react';
-import { Container, Text } from 'rebass';
+import { Container, Box, Heading } from 'rebass';
 import NavBar from './NavBar';
 import Square from './Square';
 import Preload from './Preload';
@@ -76,6 +76,8 @@ class BingoCard extends Component<Props, State> {
     this.setState({
       data: this.shuffleArray(Preload).slice(0, 25)
     });
+
+    // handleSubmit = () => {};
   }
   render() {
     const win = this.checkForWin(this.state.squares);
@@ -86,10 +88,14 @@ class BingoCard extends Component<Props, State> {
 
     return (
       <div>
-        <NavBar />
+        <NavBar color="black" />
         <Container my={4}>
-          <Text f={5} children={status} />
-          {this.state.data.map((string, i) => this.renderSquare(string, i))}
+          <Heading center py={2} f={[5, 6, 7]}>
+            Lingo Bingo
+          </Heading>
+          <Box>
+            {this.state.data.map((string, i) => this.renderSquare(string, i))}
+          </Box>
         </Container>
       </div>
     );
