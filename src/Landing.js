@@ -8,7 +8,7 @@ const photo =
 
 const Landing = props => (
   <div>
-    <NavBar />
+    <NavBar color="white" />
     <Banner
       backgroundImage={photo}
       color="white"
@@ -31,7 +31,6 @@ const Landing = props => (
         href="/#/bingocard"
       />
     </Banner>
-    <Footer />
   </div>
 );
 
