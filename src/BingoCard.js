@@ -2,6 +2,7 @@
 
 import React, { Component } from 'react';
 import { Container, Text } from 'rebass';
+import NavBar from './NavBar';
 import Square from './Square';
 import Preload from './Preload';
 
@@ -76,7 +77,6 @@ class BingoCard extends Component<Props, State> {
       data: this.shuffleArray(Preload).slice(0, 25)
     });
   }
-
   render() {
     const win = this.checkForWin(this.state.squares);
     let status;
@@ -86,6 +86,7 @@ class BingoCard extends Component<Props, State> {
 
     return (
       <div>
+        <NavBar />
         <Container my={4}>
           <Text f={5} children={status} />
           {this.state.data.map((string, i) => this.renderSquare(string, i))}
