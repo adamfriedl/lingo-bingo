@@ -5,7 +5,7 @@ import { Text, Flex, Box, Heading } from 'rebass';
 import NavBar from './NavBar';
 import Square from './Square';
 import Preload from './Preload';
-import Footer from './Footer';
+import Headline from './Headline';
 
 class BingoCard extends Component<Props, State> {
   state = {
@@ -89,16 +89,7 @@ class BingoCard extends Component<Props, State> {
       <Box py={2} m={-2}>
         <NavBar color="#001F3F" />
 
-        <Heading
-          style={{ fontFamily: 'Damion' }}
-          color="#001F3F"
-          center
-          my={[2, 3]}
-          pt={2}
-          f={[5, 6, 7]}
-        >
-          Lingo Bingo
-        </Heading>
+        <Headline text={'Lingo Bingo'} />
         <Text
           f={[3, 4, 5]}
           my={[2, 3]}
