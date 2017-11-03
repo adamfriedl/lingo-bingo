@@ -7,7 +7,7 @@ import styled from 'styled-components';
 const CustomFlex = styled(Flex)`
   float: left;
   width: 17%;
-  border: 5px solid #07c;
+  border: 5px solid #001f3f;
 
   :after {
     content: '';
@@ -25,13 +25,13 @@ const Square = (props: {
     <CustomFlex
       align="center"
       justify="center"
-      bg={props.clicked ? 'yellow' : 'white'}
+      bg={props.clicked ? 'pink' : 'white'}
       mr={1}
       mb={1}
       onClick={props.onClick}
     >
       <Flex wrap>
-        <Text f={[1, 2, 3]} p={1} center color="blue">
+        <Text f={[1, 2, 3]} p={1} center color="#001F3F">
           {props.text}
         </Text>
       </Flex>
