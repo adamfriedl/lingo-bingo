@@ -8,7 +8,7 @@ ReactDOM.render(
   <Provider
     theme={{
       font:
-        '-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif'
+        '-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif, "Damion", cursive'
     }}
     style={{ lineHeight: 1.35 }}
   >
