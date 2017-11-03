@@ -4,29 +4,37 @@ import NavBar from './NavBar';
 import Footer from './Footer';
 
 const photo =
-  'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1050&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D';
+  'https://images.unsplash.com/photo-1506701554939-d0aa4c26d79c?auto=format&fit=crop&w=1052&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D';
 
 const Landing = props => (
   <div>
-    <NavBar color="white" />
+    <NavBar color="#001F3F" />
     <Banner
       backgroundImage={photo}
-      color="white"
+      color="#84e47b"
       py={[4, 5, 6]}
       mt={-3}
       mx={-3}
     >
-      <Heading style={{ fontFamily: 'Damion' }} f={[5, 6, 7]} color="#001F3F">
+      <Heading
+        style={{ fontFamily: 'Damion' }}
+        f={[5, 6, 7]}
+        p={1}
+        my={[2, 3]}
+        color="#001F3F"
+        bg="#84e47b"
+      >
         Lingo Bingo
       </Heading>
-      <Text f={[2, 3, 4]} center color="white">
+      <Text f={[2, 3, 4]} p={1} center bg="#001F3F">
         Are Bingo and conference calls your core competencies? <br />
         Sounds like an opportunity for synergy.
       </Text>
       <Button
         my={[2, 3]}
         children="Let's Play!"
-        bg="#001F3F"
+        color="#001F3F"
+        bg="#84e47b"
         is="a"
         href="/#/bingocard"
       />
