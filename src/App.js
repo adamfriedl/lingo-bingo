@@ -14,10 +14,10 @@ class App extends Component<Props> {
           <div>
             <Route
               exact
-              path={`${process.env.PUBLIC_URL}/`}
+              path={process.env.PUBLIC_URL + '/'}
               component={Landing}
             />
-            <Route path={`${process.env.PUBLIC_URL}/about`} component={About} />
+            <Route path={process.env.PUBLIC_URL + '/about'} component={About} />
             <Route
               path={`${process.env.PUBLIC_URL}/bingocard`}
               component={BingoCard}
