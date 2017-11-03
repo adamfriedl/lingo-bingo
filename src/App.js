@@ -20,7 +20,6 @@ class App extends Component<Props> {
             <Route path="/bingocard" component={BingoCard} />
           </div>
         </Router>
-        <Footer />
       </div>
     );
   }
