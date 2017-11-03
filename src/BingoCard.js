@@ -1,10 +1,11 @@
 // @flow
 
 import React, { Component } from 'react';
-import { Container, Box, Heading } from 'rebass';
+import { Text, Flex, Box, Heading } from 'rebass';
 import NavBar from './NavBar';
 import Square from './Square';
 import Preload from './Preload';
+import Footer from './Footer';
 
 class BingoCard extends Component<Props, State> {
   state = {
@@ -66,7 +67,7 @@ class BingoCard extends Component<Props, State> {
         squares[d].clicked === true &&
         squares[e].clicked === true
       ) {
-        return 'There is a winner!!!';
+        return "You're a winner, my friend!!!";
       }
     }
     return null;
@@ -76,8 +77,6 @@ class BingoCard extends Component<Props, State> {
     this.setState({
       data: this.shuffleArray(Preload).slice(0, 25)
     });
-
-    // handleSubmit = () => {};
   }
   render() {
     const win = this.checkForWin(this.state.squares);
@@ -87,17 +86,32 @@ class BingoCard extends Component<Props, State> {
     }
 
     return (
-      <div>
-        <NavBar color="black" />
-        <Container my={4}>
-          <Heading center py={2} f={[5, 6, 7]}>
-            Lingo Bingo
-          </Heading>
-          <Box>
+      <Box py={2} m={-2}>
+        <NavBar color="#001F3F" />
+
+        <Heading
+          style={{ fontFamily: 'Damion' }}
+          color="#001F3F"
+          center
+          my={[2, 3]}
+          pt={2}
+          f={[5, 6, 7]}
+        >
+          Lingo Bingo
+        </Heading>
+        <Text
+          f={[3, 4, 5]}
+          my={[2, 3]}
+          color="#001F3F"
+          center
+          children={status}
+        />
+        <Flex justify="center" align="center" style={{ fontFamily: 'Damion' }}>
+          <Box pl={[4, 5, 6]} w={1}>
             {this.state.data.map((string, i) => this.renderSquare(string, i))}
           </Box>
-        </Container>
-      </div>
+        </Flex>
+      </Box>
     );
   }
 }
