@@ -7,7 +7,7 @@ const photo =
 
 const Landing = props => (
   <div>
-    <NavBar color="#001F3F" />
+    <NavBar color="#84e47b" />
     <Banner
       backgroundImage={photo}
       color="#84e47b"

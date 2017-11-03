@@ -15,8 +15,8 @@ class App extends Component<Props> {
         <Router>
           <div>
             <Route exact path="/" component={Landing} />
-            <Route path="lingo-bingo/#/about" component={About} />
-            <Route path="lingo-bingo/#/bingocard" component={BingoCard} />
+            <Route path="/about" component={About} />
+            <Route path="/bingocard" component={BingoCard} />
           </div>
         </Router>
       </div>
