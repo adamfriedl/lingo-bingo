@@ -6,7 +6,6 @@
     "enzyme-adapter-react-16": "^1.0.2",
     "flow": "0.2.3",
     "flow-bin": "^0.57.3",
-    "gh-pages": "^1.0.0",
     "global": "^4.3.2",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
@@ -15,6 +14,8 @@
     "rebass": "^1.0.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -22,5 +23,5 @@
     "eject": "react-scripts eject",
     "flow": "flow"
   },
-  "homepage": "https://adamfriedl.github.io/lingo-bingo"
+  "homepage": "https://adamfriedl.github.io/lingo-bingo/"
 }
