@@ -14,7 +14,7 @@ const NavBar = (props: { color: string }) => {
           </Link>
 
           <Link to={`${process.env.PUBLIC_URL}/about`}>
-            <NavLink children="About" />
+            <NavLink color="#84e47b" children="About" />
           </Link>
         </Toolbar>
       </Absolute>
