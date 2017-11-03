@@ -25,7 +25,7 @@ const Square = (props: {
     <CustomFlex
       align="center"
       justify="center"
-      bg={props.clicked ? 'pink' : 'white'}
+      bg={props.clicked ? '#84e47b' : 'white'}
       mr={1}
       mb={1}
       onClick={props.onClick}
