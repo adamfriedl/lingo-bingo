@@ -5,7 +5,6 @@ import { HashRouter as Router, Route } from 'react-router-dom';
 import Landing from './Landing';
 import About from './About';
 import BingoCard from './BingoCard';
-import Footer from './Footer';
 
 type Props = {};
 

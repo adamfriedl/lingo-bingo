@@ -1,7 +1,7 @@
 // @flow
 
 import React, { Component } from 'react';
-import { Text, Flex, Box, Heading } from 'rebass';
+import { Text, Flex, Box } from 'rebass';
 import NavBar from './NavBar';
 import Square from './Square';
 import Preload from './Preload';
