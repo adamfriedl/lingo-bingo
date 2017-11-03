@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Banner, Heading, Text, Button } from 'rebass';
 import NavBar from './NavBar';
 
@@ -29,14 +30,14 @@ const Landing = props => (
         Are Bingo and conference calls your core competencies? <br />
         Sounds like an opportunity for synergy.
       </Text>
-      <Button
-        my={[2, 3]}
-        children="Let's Play!"
-        color="#001F3F"
-        bg="#84e47b"
-        is="a"
-        href="/#/bingocard"
-      />
+      <Link to={`${process.env.PUBLIC_URL}/bingocard`}>
+        <Button
+          my={[2, 3]}
+          children="Let's Play!"
+          color="#001F3F"
+          bg="#84e47b"
+        />
+      </Link>
     </Banner>
   </div>
 );
