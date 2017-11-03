@@ -1,7 +1,7 @@
 // @flow
 
 import React, { Component } from 'react';
-import { HashRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Landing from './Landing';
 import About from './About';
 import BingoCard from './BingoCard';
@@ -12,7 +12,7 @@ class App extends Component<Props> {
   render() {
     return (
       <div>
-        <Router basename={'lingo-bingo'}>
+        <Router basename={'/lingo-bingo'}>
           <div>
             <Route
               exact
