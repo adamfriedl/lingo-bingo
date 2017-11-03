@@ -16,7 +16,7 @@ const Landing = props => (
       mt={-3}
       mx={-3}
     >
-      <Heading f={[5, 6, 7]} color="blue">
+      <Heading style={{ fontFamily: 'Damion' }} f={[5, 6, 7]} color="#001F3F">
         Lingo Bingo
       </Heading>
       <Text f={[2, 3, 4]} center color="white">
@@ -26,7 +26,7 @@ const Landing = props => (
       <Button
         my={[2, 3]}
         children="Let's Play!"
-        // color="white"
+        bg="#001F3F"
         is="a"
         href="/#/bingocard"
       />
