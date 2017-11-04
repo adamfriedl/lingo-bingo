@@ -10,18 +10,11 @@ class App extends Component<Props> {
   render() {
     return (
       <div>
-        <Router basename={'/lingo-bingo'}>
+        <Router basename={process.env.PUBLIC_URL}>
           <div>
-            <Route
-              exact
-              path={`${process.env.PUBLIC_URL}/`}
-              component={Landing}
-            />
-            <Route path={`${process.env.PUBLIC_URL}/about`} component={About} />
-            <Route
-              path={`${process.env.PUBLIC_URL}/bingocard`}
-              component={BingoCard}
-            />
+            <Route exact path="/" component={Landing} />
+            <Route path="/about" component={About} />
+            <Route path="/bingocard" component={BingoCard} />
           </div>
         </Router>
       </div>
