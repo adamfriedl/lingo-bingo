@@ -9,11 +9,11 @@ const NavBar = (props: { color: string }) => {
     <div>
       <Absolute z={2} top left>
         <Toolbar w={'100%'} bg="transparent" color={props.color}>
-          <Link to={`${process.env.PUBLIC_URL}/`}>
+          <Link to="/">
             <NavLink children="Home" />
           </Link>
 
-          <Link to={`${process.env.PUBLIC_URL}/about`}>
+          <Link to="/about">
             <NavLink color="#84e47b" children="About" />
           </Link>
         </Toolbar>

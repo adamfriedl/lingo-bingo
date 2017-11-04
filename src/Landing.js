@@ -30,7 +30,7 @@ const Landing = props => (
         Are Bingo and conference calls your core competencies? <br />
         Sounds like an opportunity for synergy.
       </Text>
-      <Link to={`${process.env.PUBLIC_URL}/bingocard`}>
+      <Link to="/bingocard">
         <Button
           my={[2, 3]}
           children="Let's Play!"
