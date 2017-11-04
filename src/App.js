@@ -10,7 +10,7 @@ class App extends Component<Props> {
   render() {
     return (
       <div>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <div>
             <Route exact path="/" component={Landing} />
             <Route path="/about" component={About} />
