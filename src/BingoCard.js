@@ -67,6 +67,7 @@ class BingoCard extends Component<Props, State> {
         squares[d].clicked === true &&
         squares[e].clicked === true
       ) {
+        window.scroll({ top: 0, left: 0, behavior: 'smooth' });
         return "You're a winner, my friend!!!";
       }
     }
