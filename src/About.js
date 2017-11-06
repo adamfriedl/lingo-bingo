@@ -1,4 +1,4 @@
-// @flowq
+// @flow
 
 import React from 'react';
 import { Container, Heading, Text } from 'rebass';

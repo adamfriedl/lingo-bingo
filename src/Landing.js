@@ -1,3 +1,5 @@
+// @flow
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Banner, Heading, Text, Button } from 'rebass';
@@ -6,7 +8,7 @@ import NavBar from './NavBar';
 const photo =
   'https://images.unsplash.com/photo-1506701554939-d0aa4c26d79c?auto=format&fit=crop&w=1052&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D';
 
-const Landing = props => (
+const Landing = () => (
   <div>
     <NavBar color="#84e47b" />
     <Banner
