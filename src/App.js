@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { NavBar } from 'rebass';
 import Landing from './Landing';
 import About from './About';
 import BingoCard from './BingoCard';

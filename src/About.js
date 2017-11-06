@@ -1,5 +1,7 @@
+// @flowq
+
 import React from 'react';
-import { Container, Text } from 'rebass';
+import { Container, Heading, Text } from 'rebass';
 import NavBar from './NavBar';
 import Headline from './Headline';
 
@@ -8,24 +10,12 @@ const About = () => (
     <NavBar color="#001F3F" />
     <Headline text={'Lingo Bingo'} />
     <Container>
+      <Heading my={[2, 3]} children="About" />
       <Text>
-        Leverage agile frameworks to provide a robust synopsis for high level
-        overviews. Iterative approaches to corporate strategy foster
-        collaborative thinking to further the overall value proposition.
-        Organically grow the holistic world view of disruptive innovation via
-        workplace diversity and empowerment.
-      </Text>
-      <br />
-      <Text>
-        Bring to the table win-win survival strategies to ensure proactive
-        domination. At the end of the day, going forward, a new normal that has
-        evolved from generation X is on the runway heading towards a streamlined
-        cloud solution. User generated content in real-time will have multiple
-        touchpoints for offshoring. Capitalize on low hanging fruit to identify
-        a ballpark value added activity to beta test. Override the digital
-        divide with additional clickthroughs from DevOps. Nanotechnology
-        immersion along the information highway will close the loop on focusing
-        solely on the bottom line.
+        Corporate-speak is the worst. If you have to listen to it, the least you
+        can do is have some surreptitious fun at its expense. Play Lingo Bingo
+        during your next conference call or meeting. It might even give you a
+        reason to pay attention.
       </Text>
     </Container>
   </div>
