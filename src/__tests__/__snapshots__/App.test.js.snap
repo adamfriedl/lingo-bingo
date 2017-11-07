@@ -15,235 +15,131 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": null,
-    "nodeType": "host",
+    "nodeType": "class",
     "props": Object {
-      "children": <BrowserRouter
-        basename=""
->
-        <div>
-                <Route
-                        component={[Function]}
-                        exact={true}
-                        path="/"
-                />
-                <Route
-                        component={[Function]}
-                        path="/about"
-                />
-                <Route
-                        component={[Function]}
-                        path="/bingocard"
-                />
-        </div>
-</BrowserRouter>,
+      "basename": "",
+      "children": Array [
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/"
+/>,
+        <Route
+          component={[Function]}
+          path="/about"
+/>,
+        <Route
+          component={[Function]}
+          path="/bingocard"
+/>,
+      ],
     },
     "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": null,
-      "nodeType": "class",
-      "props": Object {
-        "basename": "",
-        "children": <div>
-          <Route
-                    component={[Function]}
-                    exact={true}
-                    path="/"
-          />
-          <Route
-                    component={[Function]}
-                    path="/about"
-          />
-          <Route
-                    component={[Function]}
-                    path="/bingocard"
-          />
-</div>,
-      },
-      "ref": null,
-      "rendered": Object {
+    "rendered": Array [
+      Object {
         "instance": null,
         "key": null,
-        "nodeType": "host",
+        "nodeType": "class",
         "props": Object {
-          "children": Array [
-            <Route
-              component={[Function]}
-              exact={true}
-              path="/"
-/>,
-            <Route
-              component={[Function]}
-              path="/about"
-/>,
-            <Route
-              component={[Function]}
-              path="/bingocard"
-/>,
-          ],
+          "component": [Function],
+          "exact": true,
+          "path": "/",
         },
         "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": null,
-            "nodeType": "class",
-            "props": Object {
-              "component": [Function],
-              "exact": true,
-              "path": "/",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": null,
-            "nodeType": "class",
-            "props": Object {
-              "component": [Function],
-              "path": "/about",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": null,
-            "nodeType": "class",
-            "props": Object {
-              "component": [Function],
-              "path": "/bingocard",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-        ],
-        "type": "div",
+        "rendered": null,
+        "type": [Function],
       },
-      "type": [Function],
-    },
-    "type": "div",
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "component": [Function],
+          "path": "/about",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "component": [Function],
+          "path": "/bingocard",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": null,
-      "nodeType": "host",
+      "nodeType": "class",
       "props": Object {
-        "children": <BrowserRouter
-          basename=""
->
-          <div>
-                    <Route
-                              component={[Function]}
-                              exact={true}
-                              path="/"
-                    />
-                    <Route
-                              component={[Function]}
-                              path="/about"
-                    />
-                    <Route
-                              component={[Function]}
-                              path="/bingocard"
-                    />
-          </div>
-</BrowserRouter>,
+        "basename": "",
+        "children": Array [
+          <Route
+            component={[Function]}
+            exact={true}
+            path="/"
+/>,
+          <Route
+            component={[Function]}
+            path="/about"
+/>,
+          <Route
+            component={[Function]}
+            path="/bingocard"
+/>,
+        ],
       },
       "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": null,
-        "nodeType": "class",
-        "props": Object {
-          "basename": "",
-          "children": <div>
-            <Route
-                        component={[Function]}
-                        exact={true}
-                        path="/"
-            />
-            <Route
-                        component={[Function]}
-                        path="/about"
-            />
-            <Route
-                        component={[Function]}
-                        path="/bingocard"
-            />
-</div>,
-        },
-        "ref": null,
-        "rendered": Object {
+      "rendered": Array [
+        Object {
           "instance": null,
           "key": null,
-          "nodeType": "host",
+          "nodeType": "class",
           "props": Object {
-            "children": Array [
-              <Route
-                component={[Function]}
-                exact={true}
-                path="/"
-/>,
-              <Route
-                component={[Function]}
-                path="/about"
-/>,
-              <Route
-                component={[Function]}
-                path="/bingocard"
-/>,
-            ],
+            "component": [Function],
+            "exact": true,
+            "path": "/",
           },
           "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": null,
-              "nodeType": "class",
-              "props": Object {
-                "component": [Function],
-                "exact": true,
-                "path": "/",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": null,
-              "nodeType": "class",
-              "props": Object {
-                "component": [Function],
-                "path": "/about",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": null,
-              "nodeType": "class",
-              "props": Object {
-                "component": [Function],
-                "path": "/bingocard",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-          ],
-          "type": "div",
+          "rendered": null,
+          "type": [Function],
         },
-        "type": [Function],
-      },
-      "type": "div",
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "component": [Function],
+            "path": "/about",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "component": [Function],
+            "path": "/bingocard",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
     },
   ],
   Symbol(enzyme.__options__): Object {

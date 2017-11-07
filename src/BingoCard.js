@@ -91,7 +91,6 @@ class BingoCard extends Component<Props, State> {
     return (
       <Box py={2} m={-2}>
         <NavBar color="#001F3F" />
-
         <Headline text={'Lingo Bingo'} />
         <Text
           f={[3, 4, 5]}
