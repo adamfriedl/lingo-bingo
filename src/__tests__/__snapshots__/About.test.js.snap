@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <About />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <NavBar
+          color="#001F3F"
+/>,
+        <Headline
+          text="Lingo Bingo"
+/>,
+        <Styled(Styled(Base))>
+          <Styled(Styled(Base))
+                    my={
+                              Array [
+                                        2,
+                                        3,
+                                      ]
+                    }
+          >
+                    About
+          </Styled(Styled(Base))>
+          <Styled(Styled(Base))>
+                    Corporate-speak is the worst. If you have to listen to it, the least you can do is have some surreptitious fun at its expense. Play Lingo Bingo during your next conference call or meeting. It might even give you a reason to pay attention.
+          </Styled(Styled(Base))>
+</Styled(Styled(Base))>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "color": "#001F3F",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "text": "Lingo Bingo",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Styled(Styled(Base))
+              my={
+                            Array [
+                                          2,
+                                          3,
+                                        ]
+              }
+>
+              About
+</Styled(Styled(Base))>,
+            <Styled(Styled(Base))>
+              Corporate-speak is the worst. If you have to listen to it, the least you can do is have some surreptitious fun at its expense. Play Lingo Bingo during your next conference call or meeting. It might even give you a reason to pay attention.
+</Styled(Styled(Base))>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": "About",
+              "my": Array [
+                2,
+                3,
+              ],
+            },
+            "ref": null,
+            "rendered": "About",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Corporate-speak is the worst. If you have to listen to it, the least you can do is have some surreptitious fun at its expense. Play Lingo Bingo during your next conference call or meeting. It might even give you a reason to pay attention.",
+            },
+            "ref": null,
+            "rendered": "Corporate-speak is the worst. If you have to listen to it, the least you can do is have some surreptitious fun at its expense. Play Lingo Bingo during your next conference call or meeting. It might even give you a reason to pay attention.",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <NavBar
+            color="#001F3F"
+/>,
+          <Headline
+            text="Lingo Bingo"
+/>,
+          <Styled(Styled(Base))>
+            <Styled(Styled(Base))
+                        my={
+                                    Array [
+                                                2,
+                                                3,
+                                              ]
+                        }
+            >
+                        About
+            </Styled(Styled(Base))>
+            <Styled(Styled(Base))>
+                        Corporate-speak is the worst. If you have to listen to it, the least you can do is have some surreptitious fun at its expense. Play Lingo Bingo during your next conference call or meeting. It might even give you a reason to pay attention.
+            </Styled(Styled(Base))>
+</Styled(Styled(Base))>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "color": "#001F3F",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "text": "Lingo Bingo",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Styled(Styled(Base))
+                my={
+                                Array [
+                                                2,
+                                                3,
+                                              ]
+                }
+>
+                About
+</Styled(Styled(Base))>,
+              <Styled(Styled(Base))>
+                Corporate-speak is the worst. If you have to listen to it, the least you can do is have some surreptitious fun at its expense. Play Lingo Bingo during your next conference call or meeting. It might even give you a reason to pay attention.
+</Styled(Styled(Base))>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": "About",
+                "my": Array [
+                  2,
+                  3,
+                ],
+              },
+              "ref": null,
+              "rendered": "About",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Corporate-speak is the worst. If you have to listen to it, the least you can do is have some surreptitious fun at its expense. Play Lingo Bingo during your next conference call or meeting. It might even give you a reason to pay attention.",
+              },
+              "ref": null,
+              "rendered": "Corporate-speak is the worst. If you have to listen to it, the least you can do is have some surreptitious fun at its expense. Play Lingo Bingo during your next conference call or meeting. It might even give you a reason to pay attention.",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

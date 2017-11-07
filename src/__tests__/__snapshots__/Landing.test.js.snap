@@ -1,0 +1,585 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Landing />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <NavBar
+          color="#84e47b"
+/>,
+        <Styled(Styled(Base))
+          backgroundImage="https://images.unsplash.com/photo-1506701554939-d0aa4c26d79c?auto=format&fit=crop&w=1052&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
+          color="#84e47b"
+          mt={-3}
+          mx={-3}
+          py={
+                    Array [
+                              4,
+                              5,
+                              6,
+                            ]
+          }
+>
+          <Styled(Styled(Base))
+                    bg="#84e47b"
+                    color="#001F3F"
+                    f={
+                              Array [
+                                        5,
+                                        6,
+                                        7,
+                                      ]
+                    }
+                    my={
+                              Array [
+                                        2,
+                                        3,
+                                      ]
+                    }
+                    p={1}
+                    style={
+                              Object {
+                                        "fontFamily": "Damion",
+                                      }
+                    }
+          >
+                    Lingo Bingo
+          </Styled(Styled(Base))>
+          <Styled(Styled(Base))
+                    bg="#001F3F"
+                    center={true}
+                    f={
+                              Array [
+                                        2,
+                                        3,
+                                        4,
+                                      ]
+                    }
+                    p={1}
+          >
+                    Are Bingo and conference calls your core competencies? 
+                    <br />
+                    Sounds like an opportunity for synergy.
+          </Styled(Styled(Base))>
+          <Link
+                    replace={false}
+                    to="/bingocard"
+          >
+                    <Styled(Styled(Base))
+                              bg="#84e47b"
+                              color="#001F3F"
+                              my={
+                                        Array [
+                                                  2,
+                                                  3,
+                                                ]
+                              }
+                    >
+                              Let's Play!
+                    </Styled(Styled(Base))>
+          </Link>
+</Styled(Styled(Base))>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "color": "#84e47b",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "backgroundImage": "https://images.unsplash.com/photo-1506701554939-d0aa4c26d79c?auto=format&fit=crop&w=1052&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D",
+          "children": Array [
+            <Styled(Styled(Base))
+              bg="#84e47b"
+              color="#001F3F"
+              f={
+                            Array [
+                                          5,
+                                          6,
+                                          7,
+                                        ]
+              }
+              my={
+                            Array [
+                                          2,
+                                          3,
+                                        ]
+              }
+              p={1}
+              style={
+                            Object {
+                                          "fontFamily": "Damion",
+                                        }
+              }
+>
+              Lingo Bingo
+</Styled(Styled(Base))>,
+            <Styled(Styled(Base))
+              bg="#001F3F"
+              center={true}
+              f={
+                            Array [
+                                          2,
+                                          3,
+                                          4,
+                                        ]
+              }
+              p={1}
+>
+              Are Bingo and conference calls your core competencies? 
+              <br />
+              Sounds like an opportunity for synergy.
+</Styled(Styled(Base))>,
+            <Link
+              replace={false}
+              to="/bingocard"
+>
+              <Styled(Styled(Base))
+                            bg="#84e47b"
+                            color="#001F3F"
+                            my={
+                                          Array [
+                                                        2,
+                                                        3,
+                                                      ]
+                            }
+              >
+                            Let's Play!
+              </Styled(Styled(Base))>
+</Link>,
+          ],
+          "color": "#84e47b",
+          "mt": -3,
+          "mx": -3,
+          "py": Array [
+            4,
+            5,
+            6,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "bg": "#84e47b",
+              "children": "Lingo Bingo",
+              "color": "#001F3F",
+              "f": Array [
+                5,
+                6,
+                7,
+              ],
+              "my": Array [
+                2,
+                3,
+              ],
+              "p": 1,
+              "style": Object {
+                "fontFamily": "Damion",
+              },
+            },
+            "ref": null,
+            "rendered": "Lingo Bingo",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "bg": "#001F3F",
+              "center": true,
+              "children": Array [
+                "Are Bingo and conference calls your core competencies? ",
+                <br />,
+                "Sounds like an opportunity for synergy.",
+              ],
+              "f": Array [
+                2,
+                3,
+                4,
+              ],
+              "p": 1,
+            },
+            "ref": null,
+            "rendered": Array [
+              "Are Bingo and conference calls your core competencies? ",
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              "Sounds like an opportunity for synergy.",
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Styled(Styled(Base))
+                bg="#84e47b"
+                color="#001F3F"
+                my={
+                                Array [
+                                                2,
+                                                3,
+                                              ]
+                }
+>
+                Let's Play!
+</Styled(Styled(Base))>,
+              "replace": false,
+              "to": "/bingocard",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "bg": "#84e47b",
+                "children": "Let's Play!",
+                "color": "#001F3F",
+                "my": Array [
+                  2,
+                  3,
+                ],
+              },
+              "ref": null,
+              "rendered": "Let's Play!",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <NavBar
+            color="#84e47b"
+/>,
+          <Styled(Styled(Base))
+            backgroundImage="https://images.unsplash.com/photo-1506701554939-d0aa4c26d79c?auto=format&fit=crop&w=1052&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
+            color="#84e47b"
+            mt={-3}
+            mx={-3}
+            py={
+                        Array [
+                                    4,
+                                    5,
+                                    6,
+                                  ]
+            }
+>
+            <Styled(Styled(Base))
+                        bg="#84e47b"
+                        color="#001F3F"
+                        f={
+                                    Array [
+                                                5,
+                                                6,
+                                                7,
+                                              ]
+                        }
+                        my={
+                                    Array [
+                                                2,
+                                                3,
+                                              ]
+                        }
+                        p={1}
+                        style={
+                                    Object {
+                                                "fontFamily": "Damion",
+                                              }
+                        }
+            >
+                        Lingo Bingo
+            </Styled(Styled(Base))>
+            <Styled(Styled(Base))
+                        bg="#001F3F"
+                        center={true}
+                        f={
+                                    Array [
+                                                2,
+                                                3,
+                                                4,
+                                              ]
+                        }
+                        p={1}
+            >
+                        Are Bingo and conference calls your core competencies? 
+                        <br />
+                        Sounds like an opportunity for synergy.
+            </Styled(Styled(Base))>
+            <Link
+                        replace={false}
+                        to="/bingocard"
+            >
+                        <Styled(Styled(Base))
+                                    bg="#84e47b"
+                                    color="#001F3F"
+                                    my={
+                                                Array [
+                                                            2,
+                                                            3,
+                                                          ]
+                                    }
+                        >
+                                    Let's Play!
+                        </Styled(Styled(Base))>
+            </Link>
+</Styled(Styled(Base))>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "color": "#84e47b",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "backgroundImage": "https://images.unsplash.com/photo-1506701554939-d0aa4c26d79c?auto=format&fit=crop&w=1052&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D",
+            "children": Array [
+              <Styled(Styled(Base))
+                bg="#84e47b"
+                color="#001F3F"
+                f={
+                                Array [
+                                                5,
+                                                6,
+                                                7,
+                                              ]
+                }
+                my={
+                                Array [
+                                                2,
+                                                3,
+                                              ]
+                }
+                p={1}
+                style={
+                                Object {
+                                                "fontFamily": "Damion",
+                                              }
+                }
+>
+                Lingo Bingo
+</Styled(Styled(Base))>,
+              <Styled(Styled(Base))
+                bg="#001F3F"
+                center={true}
+                f={
+                                Array [
+                                                2,
+                                                3,
+                                                4,
+                                              ]
+                }
+                p={1}
+>
+                Are Bingo and conference calls your core competencies? 
+                <br />
+                Sounds like an opportunity for synergy.
+</Styled(Styled(Base))>,
+              <Link
+                replace={false}
+                to="/bingocard"
+>
+                <Styled(Styled(Base))
+                                bg="#84e47b"
+                                color="#001F3F"
+                                my={
+                                                Array [
+                                                                2,
+                                                                3,
+                                                              ]
+                                }
+                >
+                                Let's Play!
+                </Styled(Styled(Base))>
+</Link>,
+            ],
+            "color": "#84e47b",
+            "mt": -3,
+            "mx": -3,
+            "py": Array [
+              4,
+              5,
+              6,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "bg": "#84e47b",
+                "children": "Lingo Bingo",
+                "color": "#001F3F",
+                "f": Array [
+                  5,
+                  6,
+                  7,
+                ],
+                "my": Array [
+                  2,
+                  3,
+                ],
+                "p": 1,
+                "style": Object {
+                  "fontFamily": "Damion",
+                },
+              },
+              "ref": null,
+              "rendered": "Lingo Bingo",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "bg": "#001F3F",
+                "center": true,
+                "children": Array [
+                  "Are Bingo and conference calls your core competencies? ",
+                  <br />,
+                  "Sounds like an opportunity for synergy.",
+                ],
+                "f": Array [
+                  2,
+                  3,
+                  4,
+                ],
+                "p": 1,
+              },
+              "ref": null,
+              "rendered": Array [
+                "Are Bingo and conference calls your core competencies? ",
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "host",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": "br",
+                },
+                "Sounds like an opportunity for synergy.",
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Styled(Styled(Base))
+                  bg="#84e47b"
+                  color="#001F3F"
+                  my={
+                                    Array [
+                                                      2,
+                                                      3,
+                                                    ]
+                  }
+>
+                  Let's Play!
+</Styled(Styled(Base))>,
+                "replace": false,
+                "to": "/bingocard",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "bg": "#84e47b",
+                  "children": "Let's Play!",
+                  "color": "#001F3F",
+                  "my": Array [
+                    2,
+                    3,
+                  ],
+                },
+                "ref": null,
+                "rendered": "Let's Play!",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

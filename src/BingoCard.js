@@ -80,7 +80,9 @@ class BingoCard extends Component<Props, State> {
     });
   }
   render() {
-    const win = this.checkForWin(this.state.squares);
+    const { data, squares } = this.state;
+
+    const win = this.checkForWin(squares);
     let status;
     if (win) {
       status = win;
@@ -100,7 +102,7 @@ class BingoCard extends Component<Props, State> {
         />
         <Flex justify="center" align="center" style={{ fontFamily: 'Damion' }}>
           <Box pl={[4, 5, 6]} w={1}>
-            {this.state.data.map((string, i) => this.renderSquare(string, i))}
+            {data.map((string, i) => this.renderSquare(string, i))}
           </Box>
         </Flex>
       </Box>

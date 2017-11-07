@@ -1,8 +1,8 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import App from '../App';
+import NavBar from '../NavBar';
 
-it('renders without crashing', () => {
-  const component = shallow(<App />);
+it('renders', () => {
+  const component = shallow(<NavBar />);
   expect(component).toMatchSnapshot();
 });
