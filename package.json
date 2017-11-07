@@ -23,9 +23,6 @@
     "eject": "react-scripts eject",
     "flow": "flow"
   },
-  "globals": {
-    "window": true
-  },
   "homepage": "https://adamfriedl.com/lingo-bingo",
   "devDependencies": {
     "jest-styled-components": "^4.9.0"
