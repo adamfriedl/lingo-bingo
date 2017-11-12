@@ -10,22 +10,20 @@ const photo =
 
 const Landing = () => (
   <div>
-    <NavBar color="#84e47b" />
+    <NavBar />
     <Banner
       backgroundImage={photo}
       color="#84e47b"
       py={[4, 5, 6]}
       mt={-3}
-      mx={-3}
-    >
+      mx={-3}>
       <Heading
         style={{ fontFamily: 'Damion' }}
         f={[5, 6, 7]}
         p={1}
         my={[2, 3]}
         color="#001F3F"
-        bg="#84e47b"
-      >
+        bg="#84e47b">
         Lingo Bingo
       </Heading>
       <Text f={[2, 3, 4]} p={1} center bg="#001F3F">

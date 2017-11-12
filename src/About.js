@@ -7,7 +7,7 @@ import Headline from './Headline';
 
 const About = () => (
   <div>
-    <NavBar color="#001F3F" />
+    <NavBar />
     <Headline text={'Lingo Bingo'} />
     <Container>
       <Heading my={[2, 3]} children="About" />
