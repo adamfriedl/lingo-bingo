@@ -24,6 +24,7 @@ const NavBar = () => {
           <NavLink
             ml="auto"
             mr={[2, 3]}
+            href="http://adamfriedl.com"
             children="by Adam Friedl"
             style={{ fontFamily: 'Damion' }}
           />

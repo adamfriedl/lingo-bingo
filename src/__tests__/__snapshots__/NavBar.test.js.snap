@@ -19,12 +19,13 @@ ShallowWrapper {
     "props": Object {
       "children": <Styled(Styled(Base))
         left={true}
+        right={true}
         top={true}
         z={2}
 >
         <Styled(Styled(Base))
                 bg="transparent"
-                color={undefined}
+                color="#84e47b"
                 w="100%"
         >
                 <Styled(Styled(Base))>
@@ -41,6 +42,23 @@ ShallowWrapper {
                                 About
                         </Styled(Link)>
                 </Styled(Styled(Base))>
+                <Styled(Styled(Base))
+                        href="http://adamfriedl.com"
+                        ml="auto"
+                        mr={
+                                Array [
+                                        2,
+                                        3,
+                                      ]
+                        }
+                        style={
+                                Object {
+                                        "fontFamily": "Damion",
+                                      }
+                        }
+                >
+                        by Adam Friedl
+                </Styled(Styled(Base))>
         </Styled(Styled(Base))>
 </Styled(Styled(Base))>,
     },
@@ -52,7 +70,7 @@ ShallowWrapper {
       "props": Object {
         "children": <Styled(Styled(Base))
           bg="transparent"
-          color={undefined}
+          color="#84e47b"
           w="100%"
 >
           <Styled(Styled(Base))>
@@ -69,8 +87,26 @@ ShallowWrapper {
                               About
                     </Styled(Link)>
           </Styled(Styled(Base))>
+          <Styled(Styled(Base))
+                    href="http://adamfriedl.com"
+                    ml="auto"
+                    mr={
+                              Array [
+                                        2,
+                                        3,
+                                      ]
+                    }
+                    style={
+                              Object {
+                                        "fontFamily": "Damion",
+                                      }
+                    }
+          >
+                    by Adam Friedl
+          </Styled(Styled(Base))>
 </Styled(Styled(Base))>,
         "left": true,
+        "right": true,
         "top": true,
         "z": 2,
       },
@@ -96,8 +132,25 @@ ShallowWrapper {
                             About
               </Styled(Link)>
 </Styled(Styled(Base))>,
+            <Styled(Styled(Base))
+              href="http://adamfriedl.com"
+              ml="auto"
+              mr={
+                            Array [
+                                          2,
+                                          3,
+                                        ]
+              }
+              style={
+                            Object {
+                                          "fontFamily": "Damion",
+                                        }
+              }
+>
+              by Adam Friedl
+</Styled(Styled(Base))>,
           ],
-          "color": undefined,
+          "color": "#84e47b",
           "w": "100%",
         },
         "ref": null,
@@ -154,6 +207,26 @@ ShallowWrapper {
             },
             "type": [Function],
           },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": "by Adam Friedl",
+              "href": "http://adamfriedl.com",
+              "ml": "auto",
+              "mr": Array [
+                2,
+                3,
+              ],
+              "style": Object {
+                "fontFamily": "Damion",
+              },
+            },
+            "ref": null,
+            "rendered": "by Adam Friedl",
+            "type": [Function],
+          },
         ],
         "type": [Function],
       },
@@ -169,12 +242,13 @@ ShallowWrapper {
       "props": Object {
         "children": <Styled(Styled(Base))
           left={true}
+          right={true}
           top={true}
           z={2}
 >
           <Styled(Styled(Base))
                     bg="transparent"
-                    color={undefined}
+                    color="#84e47b"
                     w="100%"
           >
                     <Styled(Styled(Base))>
@@ -191,6 +265,23 @@ ShallowWrapper {
                                         About
                               </Styled(Link)>
                     </Styled(Styled(Base))>
+                    <Styled(Styled(Base))
+                              href="http://adamfriedl.com"
+                              ml="auto"
+                              mr={
+                                        Array [
+                                                  2,
+                                                  3,
+                                                ]
+                              }
+                              style={
+                                        Object {
+                                                  "fontFamily": "Damion",
+                                                }
+                              }
+                    >
+                              by Adam Friedl
+                    </Styled(Styled(Base))>
           </Styled(Styled(Base))>
 </Styled(Styled(Base))>,
       },
@@ -202,7 +293,7 @@ ShallowWrapper {
         "props": Object {
           "children": <Styled(Styled(Base))
             bg="transparent"
-            color={undefined}
+            color="#84e47b"
             w="100%"
 >
             <Styled(Styled(Base))>
@@ -219,8 +310,26 @@ ShallowWrapper {
                                     About
                         </Styled(Link)>
             </Styled(Styled(Base))>
+            <Styled(Styled(Base))
+                        href="http://adamfriedl.com"
+                        ml="auto"
+                        mr={
+                                    Array [
+                                                2,
+                                                3,
+                                              ]
+                        }
+                        style={
+                                    Object {
+                                                "fontFamily": "Damion",
+                                              }
+                        }
+            >
+                        by Adam Friedl
+            </Styled(Styled(Base))>
 </Styled(Styled(Base))>,
           "left": true,
+          "right": true,
           "top": true,
           "z": 2,
         },
@@ -246,8 +355,25 @@ ShallowWrapper {
                                 About
                 </Styled(Link)>
 </Styled(Styled(Base))>,
+              <Styled(Styled(Base))
+                href="http://adamfriedl.com"
+                ml="auto"
+                mr={
+                                Array [
+                                                2,
+                                                3,
+                                              ]
+                }
+                style={
+                                Object {
+                                                "fontFamily": "Damion",
+                                              }
+                }
+>
+                by Adam Friedl
+</Styled(Styled(Base))>,
             ],
-            "color": undefined,
+            "color": "#84e47b",
             "w": "100%",
           },
           "ref": null,
@@ -302,6 +428,26 @@ ShallowWrapper {
                 "rendered": "About",
                 "type": [Function],
               },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": "by Adam Friedl",
+                "href": "http://adamfriedl.com",
+                "ml": "auto",
+                "mr": Array [
+                  2,
+                  3,
+                ],
+                "style": Object {
+                  "fontFamily": "Damion",
+                },
+              },
+              "ref": null,
+              "rendered": "by Adam Friedl",
               "type": [Function],
             },
           ],

@@ -18,9 +18,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <NavBar
-          color="#001F3F"
-/>,
+        <NavBar />,
         <Headline
           text="Lingo Bingo"
 />,
@@ -47,9 +45,7 @@ ShallowWrapper {
         "instance": null,
         "key": null,
         "nodeType": "function",
-        "props": Object {
-          "color": "#001F3F",
-        },
+        "props": Object {},
         "ref": null,
         "rendered": null,
         "type": [Function],
@@ -127,9 +123,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <NavBar
-            color="#001F3F"
-/>,
+          <NavBar />,
           <Headline
             text="Lingo Bingo"
 />,
@@ -156,9 +150,7 @@ ShallowWrapper {
           "instance": null,
           "key": null,
           "nodeType": "function",
-          "props": Object {
-            "color": "#001F3F",
-          },
+          "props": Object {},
           "ref": null,
           "rendered": null,
           "type": [Function],

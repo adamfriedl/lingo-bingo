@@ -25,6 +25,7 @@
   },
   "homepage": "https://adamfriedl.com/lingo-bingo",
   "devDependencies": {
+    "enzyme": "^3.1.1",
     "jest-styled-components": "^4.9.0"
   }
 }
