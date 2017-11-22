@@ -31,6 +31,7 @@ ShallowWrapper {
       ],
       "style": Object {
         "fontFamily": "Damion",
+        "textShadow": "-4px 4px 1px #79e4a6",
       },
     },
     "ref": null,
@@ -57,6 +58,7 @@ ShallowWrapper {
         ],
         "style": Object {
           "fontFamily": "Damion",
+          "textShadow": "-4px 4px 1px #79e4a6",
         },
       },
       "ref": null,

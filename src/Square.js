@@ -1,7 +1,7 @@
 // @flow
 
 import React from 'react';
-import { Flex, Text } from 'rebass';
+import { Flex, Box, Text } from 'rebass';
 import styled from 'styled-components';
 
 const CustomFlex = styled(Flex)`
@@ -14,6 +14,12 @@ const CustomFlex = styled(Flex)`
     display: inline;
     padding-bottom: 100%;
   }
+`;
+
+const CustomBox = styled(Box)`
+  position: absolute;
+  width: 100%;
+  height: 100%;
 `;
 
 const Square = (props: {
