@@ -25,13 +25,12 @@ const Square = (props: {
     <CustomFlex
       align="center"
       justify="center"
-      bg={props.clicked ? '#84e47b' : 'white'}
+      bg={props.clicked ? 'teal3' : 'white'}
       mr={1}
       mb={1}
-      onClick={props.onClick}
-    >
+      onClick={props.onClick}>
       <Flex wrap>
-        <Text f={[1, 2, 3]} p={1} center color="#001F3F">
+        <Text f={[1, 2, 3]} p={1} center color="blue9">
           {props.text}
         </Text>
       </Flex>

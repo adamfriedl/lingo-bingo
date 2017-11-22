@@ -30,7 +30,7 @@ ShallowWrapper {
         >
                 <Styled(Styled(Base))
                         center={true}
-                        color="#001F3F"
+                        color="blue9"
                         f={
                                 Array [
                                         1,
@@ -56,7 +56,7 @@ ShallowWrapper {
 >
           <Styled(Styled(Base))
                     center={true}
-                    color="#001F3F"
+                    color="blue9"
                     f={
                               Array [
                                         1,
@@ -80,7 +80,7 @@ ShallowWrapper {
         "props": Object {
           "children": <Styled(Styled(Base))
             center={true}
-            color="#001F3F"
+            color="blue9"
             f={
                         Array [
                                     1,
@@ -100,7 +100,7 @@ ShallowWrapper {
           "props": Object {
             "center": true,
             "children": undefined,
-            "color": "#001F3F",
+            "color": "blue9",
             "f": Array [
               1,
               2,
@@ -137,7 +137,7 @@ ShallowWrapper {
           >
                     <Styled(Styled(Base))
                               center={true}
-                              color="#001F3F"
+                              color="blue9"
                               f={
                                         Array [
                                                   1,
@@ -163,7 +163,7 @@ ShallowWrapper {
 >
             <Styled(Styled(Base))
                         center={true}
-                        color="#001F3F"
+                        color="blue9"
                         f={
                                     Array [
                                                 1,
@@ -187,7 +187,7 @@ ShallowWrapper {
           "props": Object {
             "children": <Styled(Styled(Base))
               center={true}
-              color="#001F3F"
+              color="blue9"
               f={
                             Array [
                                           1,
@@ -207,7 +207,7 @@ ShallowWrapper {
             "props": Object {
               "center": true,
               "children": undefined,
-              "color": "#001F3F",
+              "color": "blue9",
               "f": Array [
                 1,
                 2,

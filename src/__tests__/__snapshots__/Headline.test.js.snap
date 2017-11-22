@@ -19,7 +19,7 @@ ShallowWrapper {
     "props": Object {
       "center": true,
       "children": undefined,
-      "color": "#001F3F",
+      "color": "blue9",
       "f": Array [
         5,
         6,
@@ -45,7 +45,7 @@ ShallowWrapper {
       "props": Object {
         "center": true,
         "children": undefined,
-        "color": "#001F3F",
+        "color": "blue9",
         "f": Array [
           5,
           6,

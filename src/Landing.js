@@ -13,7 +13,7 @@ const Landing = () => (
     <NavBar />
     <Banner
       backgroundImage={photo}
-      color="#84e47b"
+      color="teal3"
       py={[4, 5, 6]}
       mt={-3}
       mx={-3}>
@@ -22,21 +22,16 @@ const Landing = () => (
         f={[5, 6, 7]}
         p={1}
         my={[2, 3]}
-        color="#001F3F"
-        bg="#84e47b">
+        color="blue9"
+        bg="teal3">
         Lingo Bingo
       </Heading>
-      <Text f={[2, 3, 4]} p={1} center bg="#001F3F">
+      <Text f={[2, 3, 4]} p={1} center bg="blue9">
         Are Bingo and conference calls your core competencies? <br />
         Sounds like an opportunity for synergy.
       </Text>
       <Link to="/bingocard">
-        <Button
-          my={[2, 3]}
-          children="Let's Play!"
-          color="#001F3F"
-          bg="#84e47b"
-        />
+        <Button my={[2, 3]} children="Let's Play!" color="blue9" bg="teal3" />
       </Link>
     </Banner>
   </div>

@@ -27,6 +27,7 @@ class BingoCard extends Component<Props, State> {
       text={phrase}
       onClick={() => this.handleClick(i)}
       clicked={this.state.squares[i].clicked}
+      winner={this.state.squares[i].winner}
       key={i}
     />
   );
@@ -95,7 +96,8 @@ class BingoCard extends Component<Props, State> {
         <Text
           f={[3, 4, 5]}
           my={[2, 3]}
-          color="#001F3F"
+          color="teal3"
+          bg="blue9"
           center
           children={status}
         />

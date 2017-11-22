@@ -9,7 +9,7 @@ const Headline = (props: { text: string }) => (
     f={[5, 6, 7]}
     my={[3, 4]}
     center
-    color="#001F3F"
+    color="blue9"
     children={props.text}
   />
 );

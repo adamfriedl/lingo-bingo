@@ -7,14 +7,14 @@ import { Absolute, Toolbar, NavLink } from 'rebass';
 
 const CustomLink = styled(Link)`
   text-decoration: none;
-  color: #84e47b;
+  color: #79e4a6;
 `;
 
 const NavBar = () => {
   return (
     <div>
       <Absolute z={2} top left right>
-        <Toolbar w={'100%'} bg="transparent" color="#84e47b">
+        <Toolbar w={'100%'} bg="transparent" color="teal3">
           <NavLink>
             <CustomLink to="/" children="Home" />
           </NavLink>
