@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:chakracore-10.6.0
+      - image: circleci/node:10.6.0-browsers
     steps:
       - checkout
       
@@ -21,4 +21,6 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
         
       # run tests!
-      - run: yarn test a
+      - run: yarn test
+
+
