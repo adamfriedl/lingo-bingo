@@ -14,16 +14,22 @@ ShallowWrapper {
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
-    "key": null,
+    "key": undefined,
     "nodeType": "host",
     "props": Object {
       "children": Array [
         <NavBar />,
-        <Styled(Styled(Base))
+        <Banner
           backgroundImage="https://images.unsplash.com/photo-1506701554939-d0aa4c26d79c?auto=format&fit=crop&w=1052&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
           color="teal3"
           mt={-3}
           mx={-3}
+          p={
+                    Array [
+                              3,
+                              4,
+                            ]
+          }
           py={
                     Array [
                               4,
@@ -35,7 +41,7 @@ ShallowWrapper {
           <Headline
                     text="Lingo Bingo"
           />
-          <Styled(Styled(Base))
+          <Text
                     bg="blue9"
                     center={true}
                     f={
@@ -45,37 +51,44 @@ ShallowWrapper {
                                         4,
                                       ]
                     }
+                    m={0}
                     p={1}
           >
                     Are Bingo and conference calls your core competencies? 
                     <br />
                     Sounds like an opportunity for synergy.
-          </Styled(Styled(Base))>
+          </Text>
           <Link
                     replace={false}
                     to="/bingocard"
           >
-                    <Styled(Styled(Base))
+                    <Button
                               bg="teal3"
                               color="blue9"
+                              f={1}
+                              m={0}
                               my={
                                         Array [
                                                   2,
                                                   3,
                                                 ]
                               }
+                              pb={2}
+                              pl={3}
+                              pr={3}
+                              pt={2}
                     >
                               Let's Play!
-                    </Styled(Styled(Base))>
+                    </Button>
           </Link>
-</Styled(Styled(Base))>,
+</Banner>,
       ],
     },
     "ref": null,
     "rendered": Array [
       Object {
         "instance": null,
-        "key": null,
+        "key": undefined,
         "nodeType": "function",
         "props": Object {},
         "ref": null,
@@ -84,7 +97,7 @@ ShallowWrapper {
       },
       Object {
         "instance": null,
-        "key": null,
+        "key": undefined,
         "nodeType": "class",
         "props": Object {
           "backgroundImage": "https://images.unsplash.com/photo-1506701554939-d0aa4c26d79c?auto=format&fit=crop&w=1052&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D",
@@ -92,7 +105,7 @@ ShallowWrapper {
             <Headline
               text="Lingo Bingo"
 />,
-            <Styled(Styled(Base))
+            <Text
               bg="blue9"
               center={true}
               f={
@@ -102,33 +115,44 @@ ShallowWrapper {
                                           4,
                                         ]
               }
+              m={0}
               p={1}
 >
               Are Bingo and conference calls your core competencies? 
               <br />
               Sounds like an opportunity for synergy.
-</Styled(Styled(Base))>,
+</Text>,
             <Link
               replace={false}
               to="/bingocard"
 >
-              <Styled(Styled(Base))
+              <Button
                             bg="teal3"
                             color="blue9"
+                            f={1}
+                            m={0}
                             my={
                                           Array [
                                                         2,
                                                         3,
                                                       ]
                             }
+                            pb={2}
+                            pl={3}
+                            pr={3}
+                            pt={2}
               >
                             Let's Play!
-              </Styled(Styled(Base))>
+              </Button>
 </Link>,
           ],
           "color": "teal3",
           "mt": -3,
           "mx": -3,
+          "p": Array [
+            3,
+            4,
+          ],
           "py": Array [
             4,
             5,
@@ -139,7 +163,7 @@ ShallowWrapper {
         "rendered": Array [
           Object {
             "instance": null,
-            "key": null,
+            "key": undefined,
             "nodeType": "function",
             "props": Object {
               "text": "Lingo Bingo",
@@ -150,7 +174,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": null,
+            "key": undefined,
             "nodeType": "class",
             "props": Object {
               "bg": "blue9",
@@ -165,6 +189,7 @@ ShallowWrapper {
                 3,
                 4,
               ],
+              "m": 0,
               "p": 1,
             },
             "ref": null,
@@ -172,7 +197,7 @@ ShallowWrapper {
               "Are Bingo and conference calls your core competencies? ",
               Object {
                 "instance": null,
-                "key": null,
+                "key": undefined,
                 "nodeType": "host",
                 "props": Object {},
                 "ref": null,
@@ -185,37 +210,49 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": null,
+            "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "children": <Styled(Styled(Base))
+              "children": <Button
                 bg="teal3"
                 color="blue9"
+                f={1}
+                m={0}
                 my={
                                 Array [
                                                 2,
                                                 3,
                                               ]
                 }
+                pb={2}
+                pl={3}
+                pr={3}
+                pt={2}
 >
                 Let's Play!
-</Styled(Styled(Base))>,
+</Button>,
               "replace": false,
               "to": "/bingocard",
             },
             "ref": null,
             "rendered": Object {
               "instance": null,
-              "key": null,
+              "key": undefined,
               "nodeType": "class",
               "props": Object {
                 "bg": "teal3",
                 "children": "Let's Play!",
                 "color": "blue9",
+                "f": 1,
+                "m": 0,
                 "my": Array [
                   2,
                   3,
                 ],
+                "pb": 2,
+                "pl": 3,
+                "pr": 3,
+                "pt": 2,
               },
               "ref": null,
               "rendered": "Let's Play!",
@@ -232,16 +269,22 @@ ShallowWrapper {
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
-      "key": null,
+      "key": undefined,
       "nodeType": "host",
       "props": Object {
         "children": Array [
           <NavBar />,
-          <Styled(Styled(Base))
+          <Banner
             backgroundImage="https://images.unsplash.com/photo-1506701554939-d0aa4c26d79c?auto=format&fit=crop&w=1052&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
             color="teal3"
             mt={-3}
             mx={-3}
+            p={
+                        Array [
+                                    3,
+                                    4,
+                                  ]
+            }
             py={
                         Array [
                                     4,
@@ -253,7 +296,7 @@ ShallowWrapper {
             <Headline
                         text="Lingo Bingo"
             />
-            <Styled(Styled(Base))
+            <Text
                         bg="blue9"
                         center={true}
                         f={
@@ -263,37 +306,44 @@ ShallowWrapper {
                                                 4,
                                               ]
                         }
+                        m={0}
                         p={1}
             >
                         Are Bingo and conference calls your core competencies? 
                         <br />
                         Sounds like an opportunity for synergy.
-            </Styled(Styled(Base))>
+            </Text>
             <Link
                         replace={false}
                         to="/bingocard"
             >
-                        <Styled(Styled(Base))
+                        <Button
                                     bg="teal3"
                                     color="blue9"
+                                    f={1}
+                                    m={0}
                                     my={
                                                 Array [
                                                             2,
                                                             3,
                                                           ]
                                     }
+                                    pb={2}
+                                    pl={3}
+                                    pr={3}
+                                    pt={2}
                         >
                                     Let's Play!
-                        </Styled(Styled(Base))>
+                        </Button>
             </Link>
-</Styled(Styled(Base))>,
+</Banner>,
         ],
       },
       "ref": null,
       "rendered": Array [
         Object {
           "instance": null,
-          "key": null,
+          "key": undefined,
           "nodeType": "function",
           "props": Object {},
           "ref": null,
@@ -302,7 +352,7 @@ ShallowWrapper {
         },
         Object {
           "instance": null,
-          "key": null,
+          "key": undefined,
           "nodeType": "class",
           "props": Object {
             "backgroundImage": "https://images.unsplash.com/photo-1506701554939-d0aa4c26d79c?auto=format&fit=crop&w=1052&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D",
@@ -310,7 +360,7 @@ ShallowWrapper {
               <Headline
                 text="Lingo Bingo"
 />,
-              <Styled(Styled(Base))
+              <Text
                 bg="blue9"
                 center={true}
                 f={
@@ -320,33 +370,44 @@ ShallowWrapper {
                                                 4,
                                               ]
                 }
+                m={0}
                 p={1}
 >
                 Are Bingo and conference calls your core competencies? 
                 <br />
                 Sounds like an opportunity for synergy.
-</Styled(Styled(Base))>,
+</Text>,
               <Link
                 replace={false}
                 to="/bingocard"
 >
-                <Styled(Styled(Base))
+                <Button
                                 bg="teal3"
                                 color="blue9"
+                                f={1}
+                                m={0}
                                 my={
                                                 Array [
                                                                 2,
                                                                 3,
                                                               ]
                                 }
+                                pb={2}
+                                pl={3}
+                                pr={3}
+                                pt={2}
                 >
                                 Let's Play!
-                </Styled(Styled(Base))>
+                </Button>
 </Link>,
             ],
             "color": "teal3",
             "mt": -3,
             "mx": -3,
+            "p": Array [
+              3,
+              4,
+            ],
             "py": Array [
               4,
               5,
@@ -357,7 +418,7 @@ ShallowWrapper {
           "rendered": Array [
             Object {
               "instance": null,
-              "key": null,
+              "key": undefined,
               "nodeType": "function",
               "props": Object {
                 "text": "Lingo Bingo",
@@ -368,7 +429,7 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": null,
+              "key": undefined,
               "nodeType": "class",
               "props": Object {
                 "bg": "blue9",
@@ -383,6 +444,7 @@ ShallowWrapper {
                   3,
                   4,
                 ],
+                "m": 0,
                 "p": 1,
               },
               "ref": null,
@@ -390,7 +452,7 @@ ShallowWrapper {
                 "Are Bingo and conference calls your core competencies? ",
                 Object {
                   "instance": null,
-                  "key": null,
+                  "key": undefined,
                   "nodeType": "host",
                   "props": Object {},
                   "ref": null,
@@ -403,37 +465,49 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": null,
+              "key": undefined,
               "nodeType": "class",
               "props": Object {
-                "children": <Styled(Styled(Base))
+                "children": <Button
                   bg="teal3"
                   color="blue9"
+                  f={1}
+                  m={0}
                   my={
                                     Array [
                                                       2,
                                                       3,
                                                     ]
                   }
+                  pb={2}
+                  pl={3}
+                  pr={3}
+                  pt={2}
 >
                   Let's Play!
-</Styled(Styled(Base))>,
+</Button>,
                 "replace": false,
                 "to": "/bingocard",
               },
               "ref": null,
               "rendered": Object {
                 "instance": null,
-                "key": null,
+                "key": undefined,
                 "nodeType": "class",
                 "props": Object {
                   "bg": "teal3",
                   "children": "Let's Play!",
                   "color": "blue9",
+                  "f": 1,
+                  "m": 0,
                   "my": Array [
                     2,
                     3,
                   ],
+                  "pb": 2,
+                  "pl": 3,
+                  "pr": 3,
+                  "pt": 2,
                 },
                 "ref": null,
                 "rendered": "Let's Play!",

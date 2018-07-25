@@ -14,35 +14,47 @@ ShallowWrapper {
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
-    "key": null,
+    "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <Styled(Styled(Base))
+      "children": <Absolute
         left={true}
         right={true}
         top={true}
         z={2}
 >
-        <Styled(Styled(Base))
+        <Toolbar
                 bg="transparent"
                 color="teal3"
+                pl={2}
+                pr={2}
                 w="100%"
         >
-                <Styled(Styled(Base))>
+                <NavLink
+                        color="inherit"
+                        f={1}
+                        p={2}
+                >
                         <Styled(Link)
                                 to="/"
                         >
                                 Home
                         </Styled(Link)>
-                </Styled(Styled(Base))>
-                <Styled(Styled(Base))>
+                </NavLink>
+                <NavLink
+                        color="inherit"
+                        f={1}
+                        p={2}
+                >
                         <Styled(Link)
                                 to="/about"
                         >
                                 About
                         </Styled(Link)>
-                </Styled(Styled(Base))>
-                <Styled(Styled(Base))
+                </NavLink>
+                <NavLink
+                        color="inherit"
+                        f={1}
                         href="http://adamfriedl.com"
                         ml="auto"
                         mr={
@@ -51,6 +63,7 @@ ShallowWrapper {
                                         3,
                                       ]
                         }
+                        p={2}
                         style={
                                 Object {
                                         "fontFamily": "Damion",
@@ -58,36 +71,48 @@ ShallowWrapper {
                         }
                 >
                         by Adam Friedl
-                </Styled(Styled(Base))>
-        </Styled(Styled(Base))>
-</Styled(Styled(Base))>,
+                </NavLink>
+        </Toolbar>
+</Absolute>,
     },
     "ref": null,
     "rendered": Object {
       "instance": null,
-      "key": null,
+      "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "children": <Styled(Styled(Base))
+        "children": <Toolbar
           bg="transparent"
           color="teal3"
+          pl={2}
+          pr={2}
           w="100%"
 >
-          <Styled(Styled(Base))>
+          <NavLink
+                    color="inherit"
+                    f={1}
+                    p={2}
+          >
                     <Styled(Link)
                               to="/"
                     >
                               Home
                     </Styled(Link)>
-          </Styled(Styled(Base))>
-          <Styled(Styled(Base))>
+          </NavLink>
+          <NavLink
+                    color="inherit"
+                    f={1}
+                    p={2}
+          >
                     <Styled(Link)
                               to="/about"
                     >
                               About
                     </Styled(Link)>
-          </Styled(Styled(Base))>
-          <Styled(Styled(Base))
+          </NavLink>
+          <NavLink
+                    color="inherit"
+                    f={1}
                     href="http://adamfriedl.com"
                     ml="auto"
                     mr={
@@ -96,6 +121,7 @@ ShallowWrapper {
                                         3,
                                       ]
                     }
+                    p={2}
                     style={
                               Object {
                                         "fontFamily": "Damion",
@@ -103,8 +129,8 @@ ShallowWrapper {
                     }
           >
                     by Adam Friedl
-          </Styled(Styled(Base))>
-</Styled(Styled(Base))>,
+          </NavLink>
+</Toolbar>,
         "left": true,
         "right": true,
         "top": true,
@@ -113,26 +139,36 @@ ShallowWrapper {
       "ref": null,
       "rendered": Object {
         "instance": null,
-        "key": null,
+        "key": undefined,
         "nodeType": "class",
         "props": Object {
           "bg": "transparent",
           "children": Array [
-            <Styled(Styled(Base))>
+            <NavLink
+              color="inherit"
+              f={1}
+              p={2}
+>
               <Styled(Link)
                             to="/"
               >
                             Home
               </Styled(Link)>
-</Styled(Styled(Base))>,
-            <Styled(Styled(Base))>
+</NavLink>,
+            <NavLink
+              color="inherit"
+              f={1}
+              p={2}
+>
               <Styled(Link)
                             to="/about"
               >
                             About
               </Styled(Link)>
-</Styled(Styled(Base))>,
-            <Styled(Styled(Base))
+</NavLink>,
+            <NavLink
+              color="inherit"
+              f={1}
               href="http://adamfriedl.com"
               ml="auto"
               mr={
@@ -141,6 +177,7 @@ ShallowWrapper {
                                           3,
                                         ]
               }
+              p={2}
               style={
                             Object {
                                           "fontFamily": "Damion",
@@ -148,16 +185,18 @@ ShallowWrapper {
               }
 >
               by Adam Friedl
-</Styled(Styled(Base))>,
+</NavLink>,
           ],
           "color": "teal3",
+          "pl": 2,
+          "pr": 2,
           "w": "100%",
         },
         "ref": null,
         "rendered": Array [
           Object {
             "instance": null,
-            "key": null,
+            "key": undefined,
             "nodeType": "class",
             "props": Object {
               "children": <Styled(Link)
@@ -165,11 +204,14 @@ ShallowWrapper {
 >
                 Home
 </Styled(Link)>,
+              "color": "inherit",
+              "f": 1,
+              "p": 2,
             },
             "ref": null,
             "rendered": Object {
               "instance": null,
-              "key": null,
+              "key": undefined,
               "nodeType": "class",
               "props": Object {
                 "children": "Home",
@@ -183,7 +225,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": null,
+            "key": undefined,
             "nodeType": "class",
             "props": Object {
               "children": <Styled(Link)
@@ -191,11 +233,14 @@ ShallowWrapper {
 >
                 About
 </Styled(Link)>,
+              "color": "inherit",
+              "f": 1,
+              "p": 2,
             },
             "ref": null,
             "rendered": Object {
               "instance": null,
-              "key": null,
+              "key": undefined,
               "nodeType": "class",
               "props": Object {
                 "children": "About",
@@ -209,16 +254,19 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": null,
+            "key": undefined,
             "nodeType": "class",
             "props": Object {
               "children": "by Adam Friedl",
+              "color": "inherit",
+              "f": 1,
               "href": "http://adamfriedl.com",
               "ml": "auto",
               "mr": Array [
                 2,
                 3,
               ],
+              "p": 2,
               "style": Object {
                 "fontFamily": "Damion",
               },
@@ -237,35 +285,47 @@ ShallowWrapper {
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
-      "key": null,
+      "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <Styled(Styled(Base))
+        "children": <Absolute
           left={true}
           right={true}
           top={true}
           z={2}
 >
-          <Styled(Styled(Base))
+          <Toolbar
                     bg="transparent"
                     color="teal3"
+                    pl={2}
+                    pr={2}
                     w="100%"
           >
-                    <Styled(Styled(Base))>
+                    <NavLink
+                              color="inherit"
+                              f={1}
+                              p={2}
+                    >
                               <Styled(Link)
                                         to="/"
                               >
                                         Home
                               </Styled(Link)>
-                    </Styled(Styled(Base))>
-                    <Styled(Styled(Base))>
+                    </NavLink>
+                    <NavLink
+                              color="inherit"
+                              f={1}
+                              p={2}
+                    >
                               <Styled(Link)
                                         to="/about"
                               >
                                         About
                               </Styled(Link)>
-                    </Styled(Styled(Base))>
-                    <Styled(Styled(Base))
+                    </NavLink>
+                    <NavLink
+                              color="inherit"
+                              f={1}
                               href="http://adamfriedl.com"
                               ml="auto"
                               mr={
@@ -274,6 +334,7 @@ ShallowWrapper {
                                                   3,
                                                 ]
                               }
+                              p={2}
                               style={
                                         Object {
                                                   "fontFamily": "Damion",
@@ -281,36 +342,48 @@ ShallowWrapper {
                               }
                     >
                               by Adam Friedl
-                    </Styled(Styled(Base))>
-          </Styled(Styled(Base))>
-</Styled(Styled(Base))>,
+                    </NavLink>
+          </Toolbar>
+</Absolute>,
       },
       "ref": null,
       "rendered": Object {
         "instance": null,
-        "key": null,
+        "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "children": <Styled(Styled(Base))
+          "children": <Toolbar
             bg="transparent"
             color="teal3"
+            pl={2}
+            pr={2}
             w="100%"
 >
-            <Styled(Styled(Base))>
+            <NavLink
+                        color="inherit"
+                        f={1}
+                        p={2}
+            >
                         <Styled(Link)
                                     to="/"
                         >
                                     Home
                         </Styled(Link)>
-            </Styled(Styled(Base))>
-            <Styled(Styled(Base))>
+            </NavLink>
+            <NavLink
+                        color="inherit"
+                        f={1}
+                        p={2}
+            >
                         <Styled(Link)
                                     to="/about"
                         >
                                     About
                         </Styled(Link)>
-            </Styled(Styled(Base))>
-            <Styled(Styled(Base))
+            </NavLink>
+            <NavLink
+                        color="inherit"
+                        f={1}
                         href="http://adamfriedl.com"
                         ml="auto"
                         mr={
@@ -319,6 +392,7 @@ ShallowWrapper {
                                                 3,
                                               ]
                         }
+                        p={2}
                         style={
                                     Object {
                                                 "fontFamily": "Damion",
@@ -326,8 +400,8 @@ ShallowWrapper {
                         }
             >
                         by Adam Friedl
-            </Styled(Styled(Base))>
-</Styled(Styled(Base))>,
+            </NavLink>
+</Toolbar>,
           "left": true,
           "right": true,
           "top": true,
@@ -336,26 +410,36 @@ ShallowWrapper {
         "ref": null,
         "rendered": Object {
           "instance": null,
-          "key": null,
+          "key": undefined,
           "nodeType": "class",
           "props": Object {
             "bg": "transparent",
             "children": Array [
-              <Styled(Styled(Base))>
+              <NavLink
+                color="inherit"
+                f={1}
+                p={2}
+>
                 <Styled(Link)
                                 to="/"
                 >
                                 Home
                 </Styled(Link)>
-</Styled(Styled(Base))>,
-              <Styled(Styled(Base))>
+</NavLink>,
+              <NavLink
+                color="inherit"
+                f={1}
+                p={2}
+>
                 <Styled(Link)
                                 to="/about"
                 >
                                 About
                 </Styled(Link)>
-</Styled(Styled(Base))>,
-              <Styled(Styled(Base))
+</NavLink>,
+              <NavLink
+                color="inherit"
+                f={1}
                 href="http://adamfriedl.com"
                 ml="auto"
                 mr={
@@ -364,6 +448,7 @@ ShallowWrapper {
                                                 3,
                                               ]
                 }
+                p={2}
                 style={
                                 Object {
                                                 "fontFamily": "Damion",
@@ -371,16 +456,18 @@ ShallowWrapper {
                 }
 >
                 by Adam Friedl
-</Styled(Styled(Base))>,
+</NavLink>,
             ],
             "color": "teal3",
+            "pl": 2,
+            "pr": 2,
             "w": "100%",
           },
           "ref": null,
           "rendered": Array [
             Object {
               "instance": null,
-              "key": null,
+              "key": undefined,
               "nodeType": "class",
               "props": Object {
                 "children": <Styled(Link)
@@ -388,11 +475,14 @@ ShallowWrapper {
 >
                   Home
 </Styled(Link)>,
+                "color": "inherit",
+                "f": 1,
+                "p": 2,
               },
               "ref": null,
               "rendered": Object {
                 "instance": null,
-                "key": null,
+                "key": undefined,
                 "nodeType": "class",
                 "props": Object {
                   "children": "Home",
@@ -406,7 +496,7 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": null,
+              "key": undefined,
               "nodeType": "class",
               "props": Object {
                 "children": <Styled(Link)
@@ -414,11 +504,14 @@ ShallowWrapper {
 >
                   About
 </Styled(Link)>,
+                "color": "inherit",
+                "f": 1,
+                "p": 2,
               },
               "ref": null,
               "rendered": Object {
                 "instance": null,
-                "key": null,
+                "key": undefined,
                 "nodeType": "class",
                 "props": Object {
                   "children": "About",
@@ -432,16 +525,19 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": null,
+              "key": undefined,
               "nodeType": "class",
               "props": Object {
                 "children": "by Adam Friedl",
+                "color": "inherit",
+                "f": 1,
                 "href": "http://adamfriedl.com",
                 "ml": "auto",
                 "mr": Array [
                   2,
                   3,
                 ],
+                "p": 2,
                 "style": Object {
                   "fontFamily": "Damion",
                 },

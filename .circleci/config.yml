@@ -5,4 +5,9 @@ jobs:
       - image: circleci/node
     steps:
       - checkout
-      - run: echo "hello world"
+      - run: 
+          name: Run all tests
+          command: yarn test
+      - run:
+          name: Signal tests are done
+          command: console.log('Tests are done')

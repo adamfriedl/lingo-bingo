@@ -14,10 +14,10 @@ ShallowWrapper {
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
-    "key": null,
+    "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <Styled(Styled(Flex))
+      "children": <Styled(Flex)
         align="center"
         bg="white"
         justify="center"
@@ -25,10 +25,10 @@ ShallowWrapper {
         mr={1}
         onClick={undefined}
 >
-        <Styled(Flex)
+        <Flex
                 wrap={true}
         >
-                <Styled(Styled(Base))
+                <Text
                         center={true}
                         color="blue9"
                         f={
@@ -38,23 +38,24 @@ ShallowWrapper {
                                         3,
                                       ]
                         }
+                        m={0}
                         p={1}
                 />
-        </Styled(Flex)>
-</Styled(Styled(Flex))>,
+        </Flex>
+</Styled(Flex)>,
     },
     "ref": null,
     "rendered": Object {
       "instance": null,
-      "key": null,
+      "key": undefined,
       "nodeType": "class",
       "props": Object {
         "align": "center",
         "bg": "white",
-        "children": <Styled(Flex)
+        "children": <Flex
           wrap={true}
 >
-          <Styled(Styled(Base))
+          <Text
                     center={true}
                     color="blue9"
                     f={
@@ -64,9 +65,10 @@ ShallowWrapper {
                                         3,
                                       ]
                     }
+                    m={0}
                     p={1}
           />
-</Styled(Flex)>,
+</Flex>,
         "justify": "center",
         "mb": 1,
         "mr": 1,
@@ -75,10 +77,10 @@ ShallowWrapper {
       "ref": null,
       "rendered": Object {
         "instance": null,
-        "key": null,
+        "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "children": <Styled(Styled(Base))
+          "children": <Text
             center={true}
             color="blue9"
             f={
@@ -88,6 +90,7 @@ ShallowWrapper {
                                     3,
                                   ]
             }
+            m={0}
             p={1}
 />,
           "wrap": true,
@@ -95,7 +98,7 @@ ShallowWrapper {
         "ref": null,
         "rendered": Object {
           "instance": null,
-          "key": null,
+          "key": undefined,
           "nodeType": "class",
           "props": Object {
             "center": true,
@@ -106,6 +109,7 @@ ShallowWrapper {
               2,
               3,
             ],
+            "m": 0,
             "p": 1,
           },
           "ref": null,
@@ -121,10 +125,10 @@ ShallowWrapper {
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
-      "key": null,
+      "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <Styled(Styled(Flex))
+        "children": <Styled(Flex)
           align="center"
           bg="white"
           justify="center"
@@ -132,10 +136,10 @@ ShallowWrapper {
           mr={1}
           onClick={undefined}
 >
-          <Styled(Flex)
+          <Flex
                     wrap={true}
           >
-                    <Styled(Styled(Base))
+                    <Text
                               center={true}
                               color="blue9"
                               f={
@@ -145,23 +149,24 @@ ShallowWrapper {
                                                   3,
                                                 ]
                               }
+                              m={0}
                               p={1}
                     />
-          </Styled(Flex)>
-</Styled(Styled(Flex))>,
+          </Flex>
+</Styled(Flex)>,
       },
       "ref": null,
       "rendered": Object {
         "instance": null,
-        "key": null,
+        "key": undefined,
         "nodeType": "class",
         "props": Object {
           "align": "center",
           "bg": "white",
-          "children": <Styled(Flex)
+          "children": <Flex
             wrap={true}
 >
-            <Styled(Styled(Base))
+            <Text
                         center={true}
                         color="blue9"
                         f={
@@ -171,9 +176,10 @@ ShallowWrapper {
                                                 3,
                                               ]
                         }
+                        m={0}
                         p={1}
             />
-</Styled(Flex)>,
+</Flex>,
           "justify": "center",
           "mb": 1,
           "mr": 1,
@@ -182,10 +188,10 @@ ShallowWrapper {
         "ref": null,
         "rendered": Object {
           "instance": null,
-          "key": null,
+          "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "children": <Styled(Styled(Base))
+            "children": <Text
               center={true}
               color="blue9"
               f={
@@ -195,6 +201,7 @@ ShallowWrapper {
                                           3,
                                         ]
               }
+              m={0}
               p={1}
 />,
             "wrap": true,
@@ -202,7 +209,7 @@ ShallowWrapper {
           "ref": null,
           "rendered": Object {
             "instance": null,
-            "key": null,
+            "key": undefined,
             "nodeType": "class",
             "props": Object {
               "center": true,
@@ -213,6 +220,7 @@ ShallowWrapper {
                 2,
                 3,
               ],
+              "m": 0,
               "p": 1,
             },
             "ref": null,

@@ -14,7 +14,7 @@ ShallowWrapper {
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
-    "key": null,
+    "key": undefined,
     "nodeType": "host",
     "props": Object {
       "children": Array [
@@ -22,8 +22,16 @@ ShallowWrapper {
         <Headline
           text="Lingo Bingo"
 />,
-        <Styled(Styled(Base))>
-          <Styled(Styled(Base))
+        <Container
+          ml="auto"
+          mr="auto"
+          px={3}
+>
+          <Heading
+                    bold={true}
+                    f={5}
+                    is="h2"
+                    m={0}
                     my={
                               Array [
                                         2,
@@ -32,18 +40,35 @@ ShallowWrapper {
                     }
           >
                     About
-          </Styled(Styled(Base))>
-          <Styled(Styled(Base))>
-                    Corporate-speak is the worst. If you have to listen to it, the least you can do is have some surreptitious fun at its expense. Play Lingo Bingo during your next conference call or meeting. It might even give you a reason to pay attention.
-          </Styled(Styled(Base))>
-</Styled(Styled(Base))>,
+          </Heading>
+          <Text
+                    m={0}
+          >
+                    A game inspired by some coworkers seeking relief from the ridiculous corporate-speak we endured on all those conference calls. Unbeknownst to us, the 
+                    <Link
+                              color="blue"
+                              href="https://en.wikipedia.org/wiki/Buzzword_bingo"
+                              style={
+                                        Object {
+                                                  "textDecoration": "none",
+                                                }
+                              }
+                    >
+                              concept
+                    </Link>
+                     has actually existed for quite a while. But that's no reason not to online-ify it!
+                    <br />
+                    <br />
+                    Play Lingo Bingo during your next conference call or meeting. It might even give you a reason to pay attention.
+          </Text>
+</Container>,
       ],
     },
     "ref": null,
     "rendered": Array [
       Object {
         "instance": null,
-        "key": null,
+        "key": undefined,
         "nodeType": "function",
         "props": Object {},
         "ref": null,
@@ -52,7 +77,7 @@ ShallowWrapper {
       },
       Object {
         "instance": null,
-        "key": null,
+        "key": undefined,
         "nodeType": "function",
         "props": Object {
           "text": "Lingo Bingo",
@@ -63,11 +88,15 @@ ShallowWrapper {
       },
       Object {
         "instance": null,
-        "key": null,
+        "key": undefined,
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            <Styled(Styled(Base))
+            <Heading
+              bold={true}
+              f={5}
+              is="h2"
+              m={0}
               my={
                             Array [
                                           2,
@@ -76,20 +105,44 @@ ShallowWrapper {
               }
 >
               About
-</Styled(Styled(Base))>,
-            <Styled(Styled(Base))>
-              Corporate-speak is the worst. If you have to listen to it, the least you can do is have some surreptitious fun at its expense. Play Lingo Bingo during your next conference call or meeting. It might even give you a reason to pay attention.
-</Styled(Styled(Base))>,
+</Heading>,
+            <Text
+              m={0}
+>
+              A game inspired by some coworkers seeking relief from the ridiculous corporate-speak we endured on all those conference calls. Unbeknownst to us, the 
+              <Link
+                            color="blue"
+                            href="https://en.wikipedia.org/wiki/Buzzword_bingo"
+                            style={
+                                          Object {
+                                                        "textDecoration": "none",
+                                                      }
+                            }
+              >
+                            concept
+              </Link>
+               has actually existed for quite a while. But that's no reason not to online-ify it!
+              <br />
+              <br />
+              Play Lingo Bingo during your next conference call or meeting. It might even give you a reason to pay attention.
+</Text>,
           ],
+          "ml": "auto",
+          "mr": "auto",
+          "px": 3,
         },
         "ref": null,
         "rendered": Array [
           Object {
             "instance": null,
-            "key": null,
+            "key": undefined,
             "nodeType": "class",
             "props": Object {
+              "bold": true,
               "children": "About",
+              "f": 5,
+              "is": "h2",
+              "m": 0,
               "my": Array [
                 2,
                 3,
@@ -101,13 +154,69 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": null,
+            "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "children": "Corporate-speak is the worst. If you have to listen to it, the least you can do is have some surreptitious fun at its expense. Play Lingo Bingo during your next conference call or meeting. It might even give you a reason to pay attention.",
+              "children": Array [
+                "A game inspired by some coworkers seeking relief from the ridiculous corporate-speak we endured on all those conference calls. Unbeknownst to us, the ",
+                <Link
+                  color="blue"
+                  href="https://en.wikipedia.org/wiki/Buzzword_bingo"
+                  style={
+                                    Object {
+                                                      "textDecoration": "none",
+                                                    }
+                  }
+>
+                  concept
+</Link>,
+                " has actually existed for quite a while. But that's no reason not to online-ify it!",
+                <br />,
+                <br />,
+                "Play Lingo Bingo during your next conference call or meeting. It might even give you a reason to pay attention.",
+              ],
+              "m": 0,
             },
             "ref": null,
-            "rendered": "Corporate-speak is the worst. If you have to listen to it, the least you can do is have some surreptitious fun at its expense. Play Lingo Bingo during your next conference call or meeting. It might even give you a reason to pay attention.",
+            "rendered": Array [
+              "A game inspired by some coworkers seeking relief from the ridiculous corporate-speak we endured on all those conference calls. Unbeknownst to us, the ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "concept",
+                  "color": "blue",
+                  "href": "https://en.wikipedia.org/wiki/Buzzword_bingo",
+                  "style": Object {
+                    "textDecoration": "none",
+                  },
+                },
+                "ref": null,
+                "rendered": "concept",
+                "type": [Function],
+              },
+              " has actually existed for quite a while. But that's no reason not to online-ify it!",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              "Play Lingo Bingo during your next conference call or meeting. It might even give you a reason to pay attention.",
+            ],
             "type": [Function],
           },
         ],
@@ -119,7 +228,7 @@ ShallowWrapper {
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
-      "key": null,
+      "key": undefined,
       "nodeType": "host",
       "props": Object {
         "children": Array [
@@ -127,8 +236,16 @@ ShallowWrapper {
           <Headline
             text="Lingo Bingo"
 />,
-          <Styled(Styled(Base))>
-            <Styled(Styled(Base))
+          <Container
+            ml="auto"
+            mr="auto"
+            px={3}
+>
+            <Heading
+                        bold={true}
+                        f={5}
+                        is="h2"
+                        m={0}
                         my={
                                     Array [
                                                 2,
@@ -137,18 +254,35 @@ ShallowWrapper {
                         }
             >
                         About
-            </Styled(Styled(Base))>
-            <Styled(Styled(Base))>
-                        Corporate-speak is the worst. If you have to listen to it, the least you can do is have some surreptitious fun at its expense. Play Lingo Bingo during your next conference call or meeting. It might even give you a reason to pay attention.
-            </Styled(Styled(Base))>
-</Styled(Styled(Base))>,
+            </Heading>
+            <Text
+                        m={0}
+            >
+                        A game inspired by some coworkers seeking relief from the ridiculous corporate-speak we endured on all those conference calls. Unbeknownst to us, the 
+                        <Link
+                                    color="blue"
+                                    href="https://en.wikipedia.org/wiki/Buzzword_bingo"
+                                    style={
+                                                Object {
+                                                            "textDecoration": "none",
+                                                          }
+                                    }
+                        >
+                                    concept
+                        </Link>
+                         has actually existed for quite a while. But that's no reason not to online-ify it!
+                        <br />
+                        <br />
+                        Play Lingo Bingo during your next conference call or meeting. It might even give you a reason to pay attention.
+            </Text>
+</Container>,
         ],
       },
       "ref": null,
       "rendered": Array [
         Object {
           "instance": null,
-          "key": null,
+          "key": undefined,
           "nodeType": "function",
           "props": Object {},
           "ref": null,
@@ -157,7 +291,7 @@ ShallowWrapper {
         },
         Object {
           "instance": null,
-          "key": null,
+          "key": undefined,
           "nodeType": "function",
           "props": Object {
             "text": "Lingo Bingo",
@@ -168,11 +302,15 @@ ShallowWrapper {
         },
         Object {
           "instance": null,
-          "key": null,
+          "key": undefined,
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              <Styled(Styled(Base))
+              <Heading
+                bold={true}
+                f={5}
+                is="h2"
+                m={0}
                 my={
                                 Array [
                                                 2,
@@ -181,20 +319,44 @@ ShallowWrapper {
                 }
 >
                 About
-</Styled(Styled(Base))>,
-              <Styled(Styled(Base))>
-                Corporate-speak is the worst. If you have to listen to it, the least you can do is have some surreptitious fun at its expense. Play Lingo Bingo during your next conference call or meeting. It might even give you a reason to pay attention.
-</Styled(Styled(Base))>,
+</Heading>,
+              <Text
+                m={0}
+>
+                A game inspired by some coworkers seeking relief from the ridiculous corporate-speak we endured on all those conference calls. Unbeknownst to us, the 
+                <Link
+                                color="blue"
+                                href="https://en.wikipedia.org/wiki/Buzzword_bingo"
+                                style={
+                                                Object {
+                                                                "textDecoration": "none",
+                                                              }
+                                }
+                >
+                                concept
+                </Link>
+                 has actually existed for quite a while. But that's no reason not to online-ify it!
+                <br />
+                <br />
+                Play Lingo Bingo during your next conference call or meeting. It might even give you a reason to pay attention.
+</Text>,
             ],
+            "ml": "auto",
+            "mr": "auto",
+            "px": 3,
           },
           "ref": null,
           "rendered": Array [
             Object {
               "instance": null,
-              "key": null,
+              "key": undefined,
               "nodeType": "class",
               "props": Object {
+                "bold": true,
                 "children": "About",
+                "f": 5,
+                "is": "h2",
+                "m": 0,
                 "my": Array [
                   2,
                   3,
@@ -206,13 +368,69 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": null,
+              "key": undefined,
               "nodeType": "class",
               "props": Object {
-                "children": "Corporate-speak is the worst. If you have to listen to it, the least you can do is have some surreptitious fun at its expense. Play Lingo Bingo during your next conference call or meeting. It might even give you a reason to pay attention.",
+                "children": Array [
+                  "A game inspired by some coworkers seeking relief from the ridiculous corporate-speak we endured on all those conference calls. Unbeknownst to us, the ",
+                  <Link
+                    color="blue"
+                    href="https://en.wikipedia.org/wiki/Buzzword_bingo"
+                    style={
+                                        Object {
+                                                            "textDecoration": "none",
+                                                          }
+                    }
+>
+                    concept
+</Link>,
+                  " has actually existed for quite a while. But that's no reason not to online-ify it!",
+                  <br />,
+                  <br />,
+                  "Play Lingo Bingo during your next conference call or meeting. It might even give you a reason to pay attention.",
+                ],
+                "m": 0,
               },
               "ref": null,
-              "rendered": "Corporate-speak is the worst. If you have to listen to it, the least you can do is have some surreptitious fun at its expense. Play Lingo Bingo during your next conference call or meeting. It might even give you a reason to pay attention.",
+              "rendered": Array [
+                "A game inspired by some coworkers seeking relief from the ridiculous corporate-speak we endured on all those conference calls. Unbeknownst to us, the ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "concept",
+                    "color": "blue",
+                    "href": "https://en.wikipedia.org/wiki/Buzzword_bingo",
+                    "style": Object {
+                      "textDecoration": "none",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": "concept",
+                  "type": [Function],
+                },
+                " has actually existed for quite a while. But that's no reason not to online-ify it!",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": "br",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": "br",
+                },
+                "Play Lingo Bingo during your next conference call or meeting. It might even give you a reason to pay attention.",
+              ],
               "type": [Function],
             },
           ],
