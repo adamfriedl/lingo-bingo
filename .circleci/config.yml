@@ -2,7 +2,8 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:10.6.0-browsers
+      - image: circleci/node:10.6.0
+
     steps:
       - checkout
 
